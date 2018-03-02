@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2008 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+	<!-- 主题相关-->
+	<color name="themeRed">#FF5555</color>
+
+	<color name="contents_text">#ff000000</color>
+	<color name="encode_view">#ffffffff</color>
+	<color name="help_button_view">#ffcccccc</color>
+	<color name="help_view">#ff404040</color>
+	<color name="possible_result_points">#c0ffff00</color>
+	<color name="result_image_border">#ffffffff</color>
+	<color name="result_minor_text">#ffc0c0c0</color>
+	<color name="result_points">#c000ff00</color>
+	<color name="result_text">#ffffffff</color>
+	<color name="result_view">#b0000000</color>
+	<color name="sbc_header_text">#ff808080</color>
+	<color name="sbc_header_view">#ffffffff</color>
+	<color name="sbc_list_item">#fffff0e0</color>
+	<color name="sbc_layout_view">#ffffffff</color>
+	<color name="sbc_page_number_text">#ff000000</color>
+	<color name="sbc_snippet_text">#ff4b4b4b</color>
+	<color name="share_text">#ff000000</color>
+	<color name="share_view">#ffffffff</color>
+	<color name="status_view">#50000000</color>
+	<color name="status_text">#ffffffff</color>
+	<color name="transparent">#00000000</color>
+	<color name="viewfinder_frame">#ff000000</color>
+	<color name="viewfinder_laser">#ffff0000</color>
+	<color name="viewfinder_mask">#60000000</color>
+
+	<color name="title_color">#D25E5F</color>
+
+	<color name="table_text_down">#F8FBFB</color>
+	<color name="table_text_up">#73B8B8</color>
+	<color name="table_box">#73B8B8</color>
+	<color name="table_enable">#F8FBFB</color>
+	<color name="table_disable">#D1CECB</color>
+	<color name="table_box_text">#888888</color>
+	<color name="table_gray">#888888</color>
+	<color name="hang_add_bg">#E5F2F8</color>
+	<color name="color_bg">#17a2d0</color>
+	<color name="color_red">#ff5555</color>
+	<color name="color_blue">#3A92FE</color>
+	<color name="color_green">#84c44c</color>
+	<color name="light_green">#e5d2db</color>
+	<color name="light_blue">#CCCCFF</color>
+
+	<color name="paytype_bg_on">#ff5555</color>
+	<color name="paytype_bg_off">#FFFFFF</color>
+	<color name="paytype_text_on">#FFFFFF</color>
+	<color name="paytype_text_off">#888888</color>
+
+	<color name="slide_bg">#9EC6AE</color>
+
+
+	<color name="menu_selected">#00b2a1</color>
+	<color name="blank">#0000</color>
+	<color name="white">#FFF</color>
+	<color name="black">#000</color>
+	<color name="rad">#C9646C</color>
+	<color name="list_text_color">#555555</color>
+	<color name="list_text_light_color">#888888</color>
+	<color name="love_bule">#72B8B6</color>
+	<color name="dark_gray">#4D4C48</color>
+	<color name="word_gray">#919191</color>
+	<color name="scrollbar_bg">#4D000000</color>
+	<color name="text_red">#C56668</color>
+
+	<color name="snack_bg">#323232</color>
+
+
+    <color name="main_fun_text">#888888</color>
+    <color name="main_ctg_ls_text">#666666</color>
+
+    <color name="main_ctg_dv_uncheck">#F1F0EE</color>
+    <color name="main_ctg_dv_check">#00000000</color>
+
+    <color name="item_header_tv">#666666</color>
+
+	<!-- 第三方外卖-->
+	<color name="takeout_order_text_color">#999999</color>
+	<color name="takeout_order_search_hint_color">#333333</color>
+	<color name="takeout_order_time_text_color">#0099cc</color>
+	<color name="takeout_order_3ad">#33aadd</color>
+	<color name="takeout_order_eee">#eeeeee</color>
+	<color name="takeout_order_666">#666666</color>
+	<color name="takeout_order_333">#333333</color>
+	<color name="takeout_order_detail_list_bg">#f1f1f1</color>
+	<color name="takeout_order_item_state_bg">#0099cc</color>
+	<color name="takeout_order_item_state_disable_bg">#9fc5e8</color>
+	<color name="takeout_order_item_remakrs_bg">#f8f3ee</color>
+	<color name="takeout_order_item_amount_bg">#f8f8f8</color>
+	<color name="takeout_order_item_cancel">#aa9988</color>
+	<color name="takeout_order_item_completed">#aaaaaa</color>
+	<color name="takeout_order_meituan_bg">#47270f</color>
+	<color name="takeout_order_ele_bg">#2f84c6</color>
+	<color name="takeout_order_baidu_bg">#e60045</color>
+	<color name="takeout_order_ziying_bg">#ff5555</color>
+	<color name="takeout_order_setting_default_bg">#f2f2f2</color>
+</resources>

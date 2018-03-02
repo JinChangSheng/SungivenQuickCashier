@@ -1,0 +1,859 @@
+<resources>
+    <string name="recharge_str">Recharge</string>
+    <string name="gift_str">Gift</string>
+    <string name="benefit_str">Discount</string>
+    <string name="input_first">Select</string>
+    <string name="use">Apply</string>
+    <string name="test">Verify</string>
+    <string name="minute">Min</string>
+    <string name="book">Book</string>
+    <string name="store">Outlet</string>
+    <string name="estore">Web Store</string>
+    <string name="pay_by_cash">Cash Payment</string>
+    <string name="recharge_by_cash">Cash Recharge</string>
+    <string name="barcode">Barcode</string>
+    <string name="category">Category</string>
+    <string name="delete">Delete</string>
+    <string name="unit_ci">Times</string>
+    <string name="unit_zhang">Pieces</string>
+    <string name="unit_ren">Person</string>
+    <string name="choose">Choose</string>
+    <string name="address">Address</string>
+    <string name="tel">Contact</string>
+    <string name="welcome">Thank you！See you soon！</string>
+    <string name="guider">Promoter</string>
+    <string name="remark">Remark</string>
+    <string name="stock_not_enough">Low Stock, Please order!</string>
+
+	<string name="printer_permise_success">Permission Granted</string>
+	<string name="printer_permise_fail">Permission Failed</string>
+	<string name="printer_connect_success">Printer connection OK</string>
+	<string name="printer_connect_fail">Printer connection fail</string>
+	<string name="printer_not_found">Cannot find printer</string>
+	<string name="printer_has_connected">Printer Connected</string>
+	<string name="maybe_not_printer">Printer disconnected,connected device may not be printer </string>
+	<string name="scale_readding">Get data from weighing scale</string>
+	<string name="printer_connectting">Printer connecting</string>
+
+    <string name="toast_order_coming">Hi, you have a new online order！</string>
+    
+    <string name="json_error">Error</string>
+    
+    <string name="pay_type_cash">Cash</string>
+    <string name="pay_type_customer">Recharge Card</string>
+    <string name="pay_type_uion">UnionPay</string>
+    
+    <string name="director_root">Root directory！</string>
+    <string name="director_parent">Previous</string>
+    <string name="ok">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="product_name">Name</string>
+    <string name="price">Price</string>
+    <string name="money">Amount</string>
+    <string name="paihao_str">No.</string>
+    <string name="time_str">Time</string>
+    <string name="bys_last_msg">Proceed to nearest cashier</string>
+    <string name="all_qty_str">Quantity:</string>
+    <string name="all_money_str">Price:</string>
+    
+    <string name="customer_recharge">Recharge</string>
+    <string name="cashier_str">Cashier:</string>
+    <string name="num_str">No.:</string>
+    <string name="car_num_str">Card No.:</string>
+    <string name="before_money_str">Before:</string>
+    <string name="recharge_money_str">Recharge:</string>
+    <string name="gift_money_str">Bonus:</string>
+    <string name="after_money_str">After:</string>
+    <string name="recharge_type_str">Type:</string>
+
+    <string name="handover_data">Handover</string>
+    <string name="all_odd">Total Bill</string>
+    <string name="all_amount">Amount</string>
+    <string name="cash">Cash</string>
+    <string name="bank_card">UnionPay</string>
+    <string name="customer_card">Recharge Card</string>
+    <string name="alipay">Alipay</string>
+    <string name="wxpay">Wechat Pay</string>
+    <string name="jdpay">JDpay</string>
+    <string name="resolve_money">Petty Cash</string>
+    <string name="gift_money">Bonus</string>
+    <string name="return_money">Returns</string>
+    <string name="online_pay">Online</string>
+    
+    <string name="check_data">Stocktake</string>
+    <string name="stock">Stocks</string>
+    <string name="product_check">Actual</string>
+    <string name="check_1_str">Stocktake:</string>
+    <string name="check_2_str">Change:</string>
+    <string name="check_3_str">Type</string>
+    <string name="check_finish">Done</string>
+    <string name="check_list">Stock List</string>
+    
+    <string name="flow_in">Incoming</string>
+    <string name="flow_out">Outgoing</string>
+    <string name="name">Name</string>
+    <string name="qty">Qty</string>
+    <string name="mark_str">Remarks:</string>
+    <string name="all_flow_in">Total Incoming</string>
+    <string name="all_flow_out">Total Outgoing</string>
+    <string name="flow_out_1_str">Type</string>
+    <string name="flow_out_2_str">No.,Value:</string>
+    <string name="flow_data_done">Completed</string>
+    <string name="flow_data_undo">Uncompleted</string>
+    
+    <string name="flow_request">Incoming Request</string>
+    <string name="flow_request_all">Total</string>
+    <string name="flow_request_1_str">Type</string>
+    <string name="flow_request_2_str">No.,Value:</string>
+    <string name="flow_request_done">Delivered</string>
+    <string name="flow_request_undo">Undelivered</string>
+    <string name="flow_from">From</string>
+    <string name="flow_send_to">To</string>
+
+    <string name="kichen_all">Kitchen</string>
+    <string name="kichen_printer">Printer</string>
+    <string name="return_goods">Return</string>
+    <string name="table_num">Table:</string>
+    <string name="type_str">Type:</string>
+    <string name="pay_type_str">Payment:</string>
+    <string name="pay_last_str">Top up:</string>
+    <string name="pay_money_str">Deducted:</string>
+    <string name="current_point_str">Points:</string>
+    <string name="real_pay_money_str">received:</string>
+    <string name="charge_str">Change:</string>
+    <string name="receipt_undo_str">Order Item Cancelled</string>
+    <string name="cnt_fen">No.</string>
+    
+    <string name="table_receipt_num">No.  </string>
+    <string name="table_receipt_msg">Welcome！</string>
+    <string name="table_receipt_name">Name: </string>
+    <string name="table_receipt_price">Price: </string>
+    <string name="table_receipt_remarks">Remarks: </string>
+    <string name="table_receipt_qty">Quantity</string>
+    <string name="table_receipt_delivery_type">Delivery type: </string>
+    <string name="table_receipt_dayseq">Delivery number: </string>
+
+    <string name="send_receipt">Delivery Order</string>
+    <string name="balance_pay">Value Reduction</string>
+    <string name="pay_face">Pay on delivery</string>
+    <string name="point_ex_money_str">Pt. exchange:</string>
+    <string name="add_print_receipt">Reprint</string>
+    <string name="name_str">Name:</string>
+    <string name="tel_str">Contact:</string>
+    <string name="addr_str">Address:</string>
+    <string name="customer_remarks_str">Remark:</string>
+    <string name="null_str">Nil</string>
+    <string name="not_pay">Unpaid</string>
+    <string name="customer_str">Member:</string>
+    <string name="customer_num_str">Member No.:</string>
+    <string name="balance_str">Balance:</string>
+    <string name="point_str">Points:</string>
+    <string name="table_receipt">Docket</string>
+    <string name="del_sale_receipt">Void receipt</string>
+    <string name="del_return_receipt">Void Item</string>
+    <string name="return_receipt">Returns</string>
+    <string name="for_pay">Please pay at cashier</string>
+
+    <string name="http_error_account_login">Login fail, please contact support!</string>
+    <string name="http_error_cashier_login">Login fail, Please contact support!</string>
+    <string name="http_error_handover">Shift change error, data will sync during next login.</string>
+    <string name="http_error_validate_coupon">Validation error</string>
+    <string name="http_success_use_coupon">Validation OK!</string>
+    <string name="http_error_use_coupon">Validation Failed!</string>
+    <string name="http_success_add_coupon">Coupon added!</string>
+    <string name="http_error_add_coupon">Coupon add error!</string>
+    <string name="http_error_validate_customer">Member Validation Failed!</string>
+    <string name="http_error_search_customer">Search error</string>
+    <string name="http_error_recharge_customer">Recharge error!</string>
+    <string name="http_error_add_customer">Member add error!</string>
+    <string name="http_error_get_customer_ctg">Member type error!</string>
+    <string name="http_error_get_user_conf">Member setting error!</string>
+    <string name="http_error_regist_user">Registration Error!</string>
+    <string name="http_error_account_password">Password Error!</string>
+    <string name="http_error_sync">Sync Error!</string>
+    <string name="http_error_sync_time_out">Sync Time Out!</string>
+    <string name="http_error_sync_1">Sync</string>
+    <string name="http_error_sync_2">Error!</string>
+    <string name="http_error_get_stock">Stock info error!</string>
+    <string name="http_error_check">Stocktake Error!</string>
+    <string name="http_error_stock_in">Incoming Error!</string>
+    <string name="http_error_request">Order error!</string>
+    <string name="http_error_get_stocks">Stock info error!</string>
+    <string name="http_error_guess_product">Product Error!</string>
+    <string name="http_error_add_product">Add error!</string>
+    <string name="http_error_get_user_info">User Error!</string>
+    <string name="http_error_get_store_info">Outlet Error!</string>
+    <string name="http_error_pay">Payment error!</string>
+    <string name="http_error_valid_pay">Payment Error?</string>
+    <string name="http_success_send">Delivery OK!</string>
+    <string name="http_success_del">Wastage OK!</string>
+    <string name="http_error_send">Delivery send error!</string>
+    <string name="http_error_del">Wastage send error!</string>
+    <string name="http_error_comfirm_weborder">Order Error?</string>
+    <string name="table_not_hang">No table on hold!</string>
+    <string name="table_exchange_only_null">Empty table only!</string>
+
+    <string name="pay_type_estore_alipay">Webstore Alipay</string>
+    <string name="pay_type_estore_customer">Webstore Recharge</string>
+    <string name="pay_type_estore_cash">Webstore Cash</string>
+
+    <string name="use_pass_product">Per-use payment</string>
+    <string name="buy_pass_product">Buy per-use card</string>
+
+    <string name="print_use_pass_product_1">Utilised today</string>
+    <string name="print_use_pass_product_2">times[</string>
+    <string name="print_use_pass_product_3">]</string>
+    <string name="print_use_pass_product_last">Times left:</string>
+    <string name="print_use_pass_product_customer_name">Member:</string>
+    <string name="print_use_pass_product_customer_card">Member No.:</string>
+    <string name="print_use_pass_product_customer_tel">Contact:</string>
+
+	<string name="print_buy_pass_product_info_32">Name \u0020\u0020\u0020\u0020\u0020\u0020\u0020 Times Left \u0020\u0020 Price</string>
+	<string name="print_buy_pass_product_info_42">Name \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020 Times Left \u0020\u0020\u0020\u0020\u0020 Price</string>
+	<string name="print_buy_pass_product_info_48">Name \u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020 Times Left \u0020\u0020\u0020\u0020\u0020 Price</string>
+
+	<string name="pay_type_pass_product">Per-use</string>
+	<string name="pay_type_shopping_card">Gift Card</string>
+	<string name="http_error_flow">Fail</string>
+	<string name="flow_request_reject">Rejected</string>
+	<string name="pay_type_credit">Credit</string>
+
+	<string name="cashbox_money">Available Cash</string>
+	<string name="table_end">This is not the final bill.</string>
+
+    <string name="printer_test">Success!</string>
+    <string name="receipt_mdf_str">Order Amended</string>
+	<string name="logout_error_handover">Handover fail，Please try again!</string>
+
+	<string name="kitchenNotServing">Unserved</string>
+	<string name="kitchenServed">Served</string>
+	<string name="kitchenQuick">Chase</string>
+    <string name="receipt_quick_str">Note:Urgent, be quick!</string>
+    <string name="sale_product_table">Product mix report</string>
+    <string name="statistical_time">Time period:</string>
+    <string name="start">From </string>
+    <string name="end">To </string>
+	<string name="pay_type_estore_weixin">Webstore wechat</string>
+    <string name="refund_pass_product">Return Per-use card</string>
+
+    <string name="led_can_not_connect">Display cannot be connected</string>
+    <string name="led_can_not_find">Display cannot be found</string>
+    <string name="led_can_not_setting">Display setting error</string>
+    <string name="led_can_not_open">Display cannot be used</string>
+    <string name="led_connect">Display connected</string>
+
+	<string name="contain_pass_product">inc. per use card</string>
+	<string name="not_contain_return_amount">[exc. returns]</string>
+	<string name="http_error_generate_pay_qrcode">QRcode Error</string>
+	<string name="scan_zfb">Scan Alipay</string>
+	<string name="scan_weixin">Scan Wechatpay</string>
+	<string name="pay_type_koolpos">YinTong</string>
+	<string name="mdf_product_qty_success">Changed</string>
+	<string name="del_hang_ok">Hold Cancelled!</string>
+
+	<string name="hang_phone_host_error">Mobile device cannot hold order under Primary device mode.</string>
+	<string name="hang_account_error">Different account from Primary Device</string>
+	<string name="hang_mode_error">Table No. and Queue No. mode cannot be used at the same time.</string>
+	<string name="hang_add_none_error">Table empty!</string>
+	<string name="hang_host_no_table_error">No table No. found:</string>
+	<string name="hang_combined_single_error">Table is already combined!</string>
+	<string name="hang_combined_split_error">Table is already combined!</string>
+	<string name="hang_combined_need_more_error">Choose table to combine</string>
+	<string name="hang_single_need_one_error">Choose one table only.</string>
+	<string name="hang_split_need_one_error">Choose one table only.</string>
+	<string name="hang_combined_need_none_table_error">Please choose empty table</string>
+	<string name="hang_no_table_error">Please choose table to hold order</string>
+	<string name="confirm_combine_table">Combine?</string>
+	<string name="combine_table_checkout">Combine table checkout</string>
+	<string name="empty_table">Empty</string>
+	<string name="hang_all_recovery">Delete all</string>
+	<string name="get_host_hang_order_error">Error retrieving from Primary device！</string>
+
+	<string name="hang_no_receipt_error">Order not found!</string>
+	<string name="hang_no_item_error">Product not found</string>
+
+	<string name="client_serving">Served (Sec)</string>
+	<string name="client_change">Hold Order Changed (Sec)</string>
+	<string name="client_del_order">Hold order deleted (Sec)</string>
+	<string name="client_add">Items added to hold order (Sec)</string>
+
+	<string name="hang_connect_error">Cannot connect to Cashier</string>
+	<string name="hang_timeout_error">Connection timeout</string>
+	<string name="hang_return_error">Error Return from Cashier</string>
+	<string name="hang_data_error">Send data error</string>
+	<string name="hang_other_error">Unknown error</string>
+	<string name="hang_handler_ok">Success!</string>
+
+    <string name="unit">unit</string>
+	<string name="http_error_product_conf">Retrieve fail</string>
+	<string name="http_error_product_produce">Operation Fail</string>
+	<string name="http_error_produce_null">No results</string>
+	<string name="http_error_online_reverse">Online void error</string>
+	<string name="product_produce_success">Operation Success</string>
+	<string name="scan_feedback">Scan to feedback</string>
+	<string name="flow_to_store">to:</string>
+
+	<string name="exchange_table_to">change table to</string>
+	<string name="check_zero_data">Clear data</string>
+	<string name="check_zero">Clear</string>
+	<string name="check_zero_1_str">Clear:</string>
+	<string name="check_zero_finish">Clear all</string>
+	<string name="check_zero_list">Clear list</string>
+	<string name="http_error_check_zero">Clear Error</string>
+	<string name="recovery">Recover</string>
+	<string name="exit_ad">I want\n order</string>
+	<string name="error_reprint">Stop, Reprint error!</string>
+	<string name="receipt_backup">Backup receipt</string>
+
+    <string name="combo_ctg">Combo</string>
+    <string name="error_get_picture">Image Error</string>
+    <string name="dst_str">Discount</string>
+    <string name="hang_order">Hold</string>
+
+    <string name="flow_system">Default</string>
+    <string name="net_3g_cm">China Mobile</string>
+    <string name="net_3g_other">China Netcom /China Telecom</string>
+    <string name="net_4g">4G</string>
+    <string name="label_tsc">TSC Protocol</string>
+    <string name="label_ezpl">EZPL Protocol</string>
+
+	<string name="scan_jd">Scan JDpay</string>
+	<string name="pay_type_allinpay">Allinpay</string>
+	<string name="pay_type_allinpay_scan">Scan Allinpay</string>
+    <string name="pay_type_allinpay_ali">Allinpay Ali</string>
+    <string name="pay_type_allinpay_wx">Allinpay Wx</string>
+    <string name="pay_type_allinpay_bd">Allinpay Bd</string>
+    <string name="pay_type_allinpay_alp">Allinpay Alp</string>
+	<string name="pay_type_more">more>></string>
+	<string name="wifi_not_open">WIFI Disabled</string>
+
+	<string name="have_shopping_cards">Special gift card:</string>
+	<string name="recharge_money_to">Recharge to:</string>
+	<string name="gift_money_to">Gift to:</string>
+	<string name="recharge_gen">Usable credit</string>
+	<string name="start_up_date_time">Start date:</string>
+	<string name="expire_date_time">Expiry Date:</string>
+	<string name="validity_date">Validity:</string>
+	<string name="exp_unlimited">No expiry</string>
+	<string name="receipt_mdf_price_str">Note:Stop Price Change</string>
+	<string name="discard_receipt">Wastage</string>
+	<string name="discard_reason">Reason</string>
+	<string name="discard_finish">Done</string>
+	<string name="http_error_discard">Wastage Error</string>
+	<string name="discard_chang_str">wastage item，total</string>
+	<string name="discard_chang_2_str">item，Total Value</string>
+
+	<string name="summaries_report">E.O.D Report</string>
+	<string name="summaries_amount">Sale Report</string>
+	<string name="summaries_receipt_cnt">Transections</string>
+	<string name="summaries_profit">Profit</string>
+	<string name="summaries_pass_product">Per-use </string>
+	<string name="summaries_customer_recharge">Recharge</string>
+	<string name="summaries_payments">Payment summary</string>
+	<string name="summaries_promotions">Promotion</string>
+	<string name="summaries_receipt_cnt_in_store">Instore Transection</string>
+	<string name="summaries_receipt_cnt_out_store">Takeaway Transection</string>
+	<string name="summaries_amount_in_store">Instore $</string>
+	<string name="summaries_people_in_store">Instore Traffic</string>
+	<string name="summaries_avg_in_store">Instore Avg Spending</string>
+	<string name="http_error_get_summaries">Retrieve Error</string>
+	<string name="http_error_add_summaries">Submit Error</string>
+	<string name="other">other</string>
+	<string name="query_sync_time_less">One manual update within the next 5min.</string>
+	<string name="handover_after_crash">Recovery Handover</string>
+
+	<string name="history_handover">Handover History</string>
+	<string name="promotion_summaries">Promo Summary</string>
+
+	<string name="promotion_none">No promo</string>
+	<string name="promotion_gift">Gift Promo</string>
+	<string name="promotion_product_redemption">Redemption</string>
+	<string name="promotion_product_discount">Discount</string>
+	<string name="promotion_product_half_price">2nd item discount</string>
+	<string name="customer_discount">Member discount</string>
+	<string name="item_manual_discount">Manuel discount</string>
+	<string name="promotion_combo">Combo</string>
+	<string name="promotion_cash_back">Cashback</string>
+	<string name="customer_pass_product_discount">Per use discount</string>
+	<string name="customer_point_exchange_money_discount">Cash Redeem</string>
+	<string name="customer_point_exchange_product_discount">Product Redeem</string>
+	<string name="entire_discount">Bill Discount</string>
+	<string name="enjoy_customer_discount"></string>
+	<string name="promotion_type">Type</string>
+	<string name="amount">Total</string>
+
+	<string name="pay_type_tp">3rd Party Payment</string>
+    <string name="manager_account_can_not_sale">No transection within HQ account!</string>
+
+    <string name="device_not_support_nfc">Do not support NFC！</string>
+    <string name="device_start_nfc_warning">Enable NFC feature！</string>
+    <string name="scale_error">Weighing Scale Error</string>
+
+    <string name="delivery_type_send">Delivery</string>
+    <string name="delivery_type_take">Takeaway</string>
+    <string name="delivery_type_current">Eat-in</string>
+    <string name="delivery_type_get_hang">Retrieve</string>
+
+    <string name="usb_printer_disconnect">USB Printer Disconnected</string>
+
+    <string name="printer_name_receipt">Receipt Printer</string>
+    <string name="printer_name_kitchen">Kitchen Printer</string>
+    <string name="printer_name_table">Docket Printer</string>
+    <string name="printer_name_label">Label Printer</string>
+    <string name="printer_name_bluetooth">Bluetooth Printer</string>
+    <string name="printer_name_bluetooth_label">Bluetooth Label Printer</string>
+    <string name="printer_name_usb_receipt">USB Receipt Printer</string>
+    <string name="printer_name_usb_label">USB Label Printer</string>
+    <string name="printer_name_serial">Serial Printer</string>
+    <string name="printer_name_inner">Internal Printer</string>
+
+    <string name="self_service">Self Service</string>
+
+	<string name="str_XH">*</string>
+	<string name="default_zero_decimal">0.00</string>
+
+	<string name="shelf_life">Expiry: %1$d days</string>
+	<string name="delivery_type">Delivery type</string>
+	<string name="continue_str">Continue</string>
+	<string name="hys_can_not_buy_current_price">Market priced item cannot be ordered.</string>
+	<string name="customer_pay_success">Member payment successful</string>
+	<string name="customer_pay_fail">Member payment not successful</string>
+	<string name="paying">Paying</string>
+	<string name="customer_refrush">Refresh member details</string>
+	<string name="tel_fail_warning">Device dial error, please use a mobile to dial：\n400-806-6866</string>
+	<string name="from_table_not_found">Cannot find original table</string>
+	<string name="to_table_not_found">Cannot find table</string>
+	<string name="table_exchange_only_single">Only single table can be changed</string>
+	<string name="table_exchange_success">Table changed successfully</string>
+	<string name="client_table_exchanging">Changing table on secondary device…</string>
+	<string name="client_table_exchanged">Table changed on secondary device</string>
+	<string name="refresh_pass_product">Refresh member per-use card</string>
+	<string name="pass_product_lack">Insufficient credit，left with %1$d use，please use another card</string>
+	<string name="refresh_shopping_card">Refresh member gift card</string>
+	<string name="shopping_card_changed">Gift card value has changed，please use another card</string>
+	<string name="use_pass_product_fail">Per-use card transaction failed</string>
+	<string name="list_end">End of list</string>
+	<string name="at_least_one_payment">Display at least one payment method</string>
+	<string name="need_refund_payment">No refund payment type, please define</string>
+	<string name="payment_not_support">Payment type not supported</string>
+	<string name="delivery_type_web_order">From Online order</string>
+	<string name="payment_config_drag_1">Press and hold</string>
+	<string name="payment_config_drag_2">Icon can be dragged to change the order</string>
+	<string name="no_code_product">Open item</string>
+	<string name="no_code_product_not_free">Open item price cannot be 0</string>
+	<!--2017-05-02-->
+	<string name="connected_str">Connected</string>
+	<string name="setting_bluetooth_printer">"Bluetooth Printer"</string>
+	<string name="bluetooth_paired">"Paired devices"</string>
+	<string name="bluetooth_not_printer">The device may not be a bluetooth printer, may not print!</string>
+    <string name="bluetooth_is_closed">Bluetooth is not open</string>
+    <string name="printer_not_connected">Not connected printer</string>
+    <string name="printer">Printer</string>
+    <string name="disconnected_str">Disconnected</string>
+    <string name="has_colsed_str">Closed</string>
+
+    <!--2017-05-18-->
+    <string name="set_network_manual">Please go to system setting to set internet options</string>
+    <!--2017-05-24-->
+    <string name="handle_hang_order">Processing order</string>
+    <string name="history_order_search_warning">Use the search function to find more records</string>
+    <string name="price_after_discount">Discounted price</string>
+
+    <string name="client_can_pos_alipay">Alipay-Scan by customer</string>
+    <string name="client_can_pos_wxpay">Wechat pay-Scan by customer</string>
+    <string name="pos_can_client_alipay">Alipay-Scan by cashier</string>
+    <string name="pos_can_client_wxpay">Wechat pay-Scan by cashier</string>
+
+    <!--2017-06-13-->
+    <string name="product_tag_changed">Variables modified at back office, please select item again.</string>
+    <string name="tax">Tax</string>
+    <string name="service_fee">Service charge</string>
+    <string name="product_include_tax">Tax inclusive</string>
+
+    <string name="input_people_cnt">Guest</string>
+    <string name="handover_net_amount">Net Sales</string>
+    <string name="service_amount">Total Service Charges</string>
+    <string name="tax_amount">Total GST</string>
+
+    <!--2017-07-03-->
+    <string name="cashier_real_cash">The cashier paid in cash:</string>
+
+    <string-array name="dst_values">
+        <item >5</item>
+        <item >10</item>
+        <item >12</item>
+        <item >15</item>
+        <item >20</item>
+        <item >25</item>
+        <item >30</item>
+        <item >40</item>
+        <item >50</item>
+        <item >100</item>
+        <item >Rounding</item>
+    </string-array>
+
+    <string-array name="kitchen_state">
+        <item >@string/kitchenNotServing</item>
+        <item >@string/kitchenServed</item>
+    </string-array>
+
+	<string-array name="net_type">
+		<item >WIFI</item>
+		<item >@string/net_3g_cm</item>
+		<item >@string/net_3g_other</item>
+		<item >@string/net_4g</item>
+	</string-array>
+
+	<string-array name="label_type">
+		<item >@string/label_tsc</item>
+		<item >@string/label_ezpl</item>
+	</string-array>
+
+	<string-array name="scale_digit_type">
+		<item >2</item>
+		<item >3</item>
+	</string-array>
+
+	<string-array name="industry_real_type">
+		<item >Retail</item>
+		<item >F&amp;B</item>
+		<item >Fashion</item>
+		<item >Service</item>
+		<item >Others</item>
+	</string-array>
+
+    <string-array name="baudrate_values">
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+        <item >230400</item>
+        <item >460800</item>
+        <item >500000</item>
+    </string-array>
+
+
+    <string name="client_can_pos_union">Union-Scan by customer</string>
+
+    <string name="number_customers">Customer Number</string>
+    <string name="need_not_input">Not Need Input</string>
+
+    <!--2017-08-10-->
+    <string name="key_recovery">Recover</string>
+
+    <string name="hys_customer_not_exist">Member does not exist</string>
+    <string name="hys_customer_authentication">Validation is successful, the member has been saved</string>
+    <string name="main_update_warning">Backend Changes Made, Please Refresh</string>
+
+    <!--2017-09-28-->
+    <string name="hang_web_order_warning">The table has self-service order, please hang to other table!</string>
+
+    <!--2017-09-28-->
+    <string name="customer_detail_deposit">Deposit</string>
+    <string name="customer_detail_deposit_add">Add</string>
+    <string name="customer_detail_deposit_take">Take</string>
+    <string name="product">Product</string>
+    <string name="deposit_product_qty">uantity of deposit</string>
+    <string name="deposit_product_take_qty">Quantity of take</string>
+    <string name="deposit_product_surplus_qty">Surplus</string>
+    <string name="deposit_product">Deposit product</string>
+    <string name="deposit_product_history">Deposit history</string>
+    <string name="deposit_product_history_in_out">Add/Take</string>
+    <string name="deposit_product_history_guider">Operator</string>
+    <string name="deposit_product_add_success">Add %1$s success</string>
+    <string name="deposit_product_take_success">Take success</string>
+    <string name="deposit_add">Add</string>n
+    <string name="deposit_take">Take</string>
+    <string name="deposit_print_title">Deposit ticket</string>
+    <string name="deposit_take_print_title">Deposit take ticket</string>
+    <string name="deposit_print_product_name">Product name</string>
+    <string name="deposit_print_add_surplus">take/surplus</string>
+    <string name="input_qty_warning">Please enter the quantity!</string>
+    <string name="deposit_qty_out_of_rang">The input value exceeds the maximum range</string>
+
+    <string name="product_print_free">free</string>
+
+    <!--2017-10-10-->
+    <string name="self_table_exchange_warning">Self-Service table can not be changed</string>
+    <string name="self_table_combine_warning">Self-Service table can not combine table checkout</string>
+
+    <string name="customer_rewrad">reward:</string>
+    <string name="customer_point">point</string>
+    <string name="customer_coupons">coupons</string>
+    <string name="customer_packs">packs</string>
+
+    <!--2017-10-26-->
+    <string name="case_product_item_for_retail_warning">系统正在自动拆包补库存，请稍后...</string>
+    <string name="case_product_item_for_retail_complete">拆包完成</string>
+
+    <!-- 第三方外卖 -->
+    <string name="takeout_order">Web order</string>
+    <string name="takeout_order_setting">Web order setting</string>
+    <string name="takeout_source">Platform：</string>
+    <string name="takeout_state">Status：</string>
+    <string name="takeout_detail_title">Order details</string>
+    <string name="takeout_order_selector_platform">Platform(At least one option)</string>
+    <string name="takeout_order_selector_state">Status(Choose one or all)</string>
+    <string name="takeout_order_selector_text">Select</string>
+    <string name="takeout_total_qty">total NO. %1$d</string>
+    <string name="order_source_ziying">Online order</string>
+    <string name="order_source_ele">Eleme</string>
+    <string name="order_source_meituan">Meituan</string>
+    <string name="order_source_baidu">Baidu</string>
+    <string name="stay_receive">Receive</string>
+    <string name="stay_kds">Print</string>
+    <string name="stay_ship">Delivery</string>
+    <string name="stay_checkout">Checkout</string>
+    <string name="order_completed">Completed</string>
+    <string name="order_canceled">Canceled</string>
+    <string name="order_cancel">Cancel</string>
+    <string name="order_receive">Receive</string>
+    <string name="order_kds">Print</string>
+    <string name="order_delivery">Delivery</string>
+    <string name="order_checkout">Checkout</string>
+    <string name="takeout_order_search_text">Search order</string>
+    <string name="takeout_order_cancel_search">Cancel</string>
+    <string name="takeout_order_zhi">-</string>
+    <string name="takeout_order_time_error">The input time format is not correct, please re-enter!</string>
+    <string name="takeout_order_platform">Take-Out Platform</string>
+    <string name="takeout_order_state">Status</string>
+    <string name="takeout_order_all">All</string>
+    <string name="takeout_order_batch">Batch Receive</string>
+    <string name="takeout_order_batch_str">Batch</string>
+    <string name="takeout_order_delivery">Delivery</string>
+    <string name="takeout_order_delivery_now">Immediate delivery</string>
+    <string name="takeout_order_receive">Receive</string>
+    <string name="takeout_order_cash_on_delivery">Pay cash on delivery</string>
+    <string name="takeout_order_pay_online">Pay online</string>
+    <string name="takeout_order_product_total_amount">Total amount</string>
+    <string name="takeout_order_shipping_fee">Freight</string>
+    <string name="takeout_order_package_fee">Packaging fee</string>
+    <string name="takeout_order_total">Total No. %1$s</string>
+    <string name="takeout_order_receivable_amount">Receivable</string>
+    <string name="takeout_order_received_amount">Received</string>
+    <string name="takeout_order_null">No orders</string>
+    <string name="takeout_order_canceling">The system is canceling order, please wait a moment</string>
+    <string name="takeout_order_canceed">The order has been canceled</string>
+    <string name="takeout_order_receiving">The system is receiving the order, please wait a moment</string>
+    <string name="takeout_order_deliverying">The system is delivering the order, please wait a moment</string>
+    <string name="takeout_order_receive_confirm">Order confirmation</string>
+    <string name="takeout_order_receive_confirm_desc">Confirm receive of the order?</string>
+    <string name="takeout_order_receive_confirm_not">No</string>
+    <string name="takeout_order_receive_confirm_yes">Yes</string>
+    <string name="takeout_order_kds_confirm">Print confirm</string>
+    <string name="takeout_order_kds_confirm_desc">Make sure to print all items of this document to the kitchen?</string>
+    <string name="takeout_order_kds_confirm_not">No</string>
+    <string name="takeout_order_kds_confirm_yes">Yes</string>
+    <string name="takeout_order_delivery_confirm">Delivery confirm</string>
+    <string name="takeout_order_delivery_confirm_desc">Confirm delivery of the order?</string>
+    <string name="takeout_order_delivery_confirm_not">No</string>
+    <string name="takeout_order_delivery_confirm_yes">Yes</string>
+    <string name="takeout_order_checkout_confirm">Checkout confirm</string>
+    <string name="takeout_order_checkout_confirm_desc">Confirm checkout of the order?</string>
+    <string name="takeout_order_checkout_confirm_not">No</string>
+    <string name="takeout_order_checkout_confirm_yes">Yes</string>
+    <string name="takeout_order_kds_again">Print again</string>
+    <string name="takeout_order_checkout_online">The system is checkouting the order, please wait a moment</string>
+    <string name="takeout_order_online">Online order</string>
+    <string name="takeout_order_checkout_complete_desc">Checkout success！Print the receipt?</string>
+    <string name="takeout_order_checkout_print">Print receipt</string>
+    <string name="takeout_order_checkout_completed">Done</string>
+    <string name="takeout_order_checkout_back_tip">The order has been paid, you have to complete checkout!</string>
+    <string name="takeout_order_checkout_no_discount">No discount</string>
+    <string name="takeout_order_checkout_total_discount">Product discount</string>
+    <string name="takeout_order_checkout_warning">Checkout warning</string>
+    <string name="takeout_order_checkout_warning_desc">This order has been paid successfully, you can choose 1: immediately checkout the order by click on [Checkout];2: [Next time] return the Web order!</string>
+    <string name="takeout_order_checkout_warning_yes">Checkout</string>
+    <string name="takeout_order_checkout_warning_not">Next time</string>
+    <string name="takeout_order_auto_receive_setting">Set auto processing(auto complete the following steps)</string>
+    <string name="takeout_order_receive_setting">Whether receive web orders</string>
+    <string name="takeout_order_auto_delivery_setting">Delivery(Print receipt)</string>
+    <string name="takeout_order_have_deliveried">The order has been deliverid!</string>
+    <string name="takeout_order_have_checkouted">The order has been checkouted!</string>
+    <string name="takeout_order_auto_processing">Auto processing order...</string>
+    <string name="delivery_takeout_order">Take-Out</string>
+    <string name="takeout_order_earning">Amout of Take-Out</string>
+    <string name="web_order_earning">Amout of Web order</string>
+    <string name="takeout_order_from">[From %1$s]</string>
+    <string name="takeout_order_batch_receive">Batch receiving，please wait!</string>
+    <string name="takeout_order_batch_kds">Batch printing，please wait!</string>
+    <string name="takeout_order_batch_delivery">Batch receiving，please wait!</string>
+    <string name="takeout_order_batch_checkout">Batch checkouting，please wait!</string>
+    <string name="takeout_order_help_desc">Warm tip: through WeChat store, online store, "邻里尽至" APP order and Meituan, the order of the delivery platform can be pushed here！</string>
+    <string name="takeout_reversation">Subscribe</string>
+    <string name="takeout_source_name">Take-Out: </string>
+    <string name="takeout_order_no">No.</string>
+    <string name="takeout_open_hint">The account is not yet bound to the Take-Out platform, please contact customer service binding!</string>
+
+    <string name="stock_sync_ok">该单据已经被确认过了</string>
+    <string name="stock_sync_refuse">该单据已经被拒绝过了</string>
+    <string name="stock_sync_accept_refuse">该单据已经被拒绝收货了</string>
+
+    <string name="get_stock_taking">Retrieve inventory data</string>
+    <string name="commited">Submitted</string>
+    <string name="checking">%1$s Stock-taking</string>
+    <string name="project_name">Project name</string>
+    <string name="check_has_not">Not count</string>
+    <string name="zero_commit">Reset 0 submission</string>
+    <string name="direct_commit">Submit directly</string>
+    <string name="continue_check">Continue stock-take</string>
+    <string name="save_exit">Save data and exit the system</string>
+    <string name="clear_exit">清除盘点数据并退出</string>
+    <string name="product_search">Search</string>
+    <string name="product_search_hint">Please enter the full barcode (or product serial number?)</string>
+    <string name="stock_taking_creator">%1$s Created Stock-take</string>
+    <string name="stock_taking_has_not_finish">You have incomplete stock-take</string>
+    <string name="exit_commit_warning">Exit Stock-take mode</string>
+    <string name="barcode_product_not_found">Unable to find barcode, Please proceed to next item</string>
+    <string name="skip">Skip</string>
+    <string name="title_has_checked">Stock-take completed（%1$d）</string>
+    <string name="title_has_not_checked">Not count（%1$d）</string>
+    <string name="check_commit_hint">Submit stock-take %1$d items</string>
+    <string name="title_check_history">bottom %1$s of inventory search</string>
+    <string name="default_project_name">%1$s Created Stock-take</string>
+    <string name="check_update_warning">Backend Changes Made, Please Refresh</string>
+
+    <string name="choose_check_mode">Select Stock-take Mode</string>
+    <string name="single_check">Single Stock-take Mode</string>
+    <string name="multi_check">Multiple Stock-take Mode</string>
+    <string name="check_restart_warning">re-inventorying will clear the previous inventory record !</string>
+
+    <string name="hys_tag_free">免费</string>
+    <string name="download_file_error">下载文件出错，请重试。</string>
+    <string name="download_ing">下载中%1$d%%</string>
+    <string name="download_second_ads">下载副屏资源%1$d%%</string>
+    <string name="download_file_ok">下载文件成功</string>
+    <string name="ad_download_fail">%1$s download failed, the corresponding content will not be displayed.</string>
+    <string name="select_ad_type_first">Select Advertisement Type</string>
+
+    <string name="download_second_ad_resourse">下载副屏资源</string>
+
+    <string name="flow_request_all_selling_amount">件,总售价:</string>
+    <string name="all_check_commit">End stock-taking and collect all data from joint devices</string>
+    <string name="check_check_summary">Cross Check Profit and Loss</string>
+    <string name="check_finsh_hint">In the profit and loss table</string>
+    <string name="multi_check_finish">Stock-take completed</string>
+
+    <string name="cash_income_expense">Income and expense in cash</string>
+    <string name="cash_expense">Expense</string>
+    <string name="cash_income">Income</string>
+    <string name="project">Product</string>
+    <string name="print">Print</string>
+    <string name="cash_income_expense_none">Has not set</string>
+    <string name="cash_income_expense_warning">Select an item please</string>
+    <string name="cash_income_expense_requesting">The System is uploading Cash-Record，please wait!</string>
+    <string name="cash_income_expense_success">Upload record success</string>
+    <string name="cash_income_expense_print_title">Cash income and expense ticket</string>
+    <string name="cash_income_expense_cashier">The recorder：</string>
+    <string name="cash_income_expense_type">Type：</string>
+    <string name="cash_income_expense_expense_amount">Amount of expense：</string>
+    <string name="cash_income_expense_income_amount">Amount of income：</string>
+
+    <string name="has_no_auth">The headquarters account limited the authority!</string>
+
+    <string name="time_error_pls_update">Current system time is wrong, in order to ensure the accuracy of sales data, please update the system time immediately!</string>
+    <string name="time_error_to_setting">To set up</string>
+    <string name="time_error_goon">Continue login</string>
+    <string name="flow_in_price">Buy price</string>
+    <string name="flow_in_amount">Total buy price</string>
+    <string name="flow_sell_amount">Total sell price</string>
+    <string name="no_edit_jurisdiction">Do not have editorial purchase price authority</string>
+
+
+    <!--2017-12-15-->
+    <string name="online_cancel_warning">Please confirm that the user has not paid before cancellation！</string>
+    <string name="online_pay_cancel">Stop payment</string>
+    <string name="online_pay_continue">Continue to payment</string>
+    <string name="dsp_welcome">Welcome</string>
+
+    <string name="set_label_printer_first">Please set the label printer first</string>
+    <string name="job_print_wait">Wait for the print</string>
+    <string name="job_print_start">Start printing</string>
+    <string name="job_print_ing">In the print</string>
+    <string name="job_print_finish">Print complete</string>
+    <string name="job_print_error">Printing error</string>
+
+    <!-- 20170808 -->
+    <string name="ump_scan_pay">魔方扫码付(支持银联扫码)</string>
+    <string name="ump_pay_wx">魔方微信</string>
+    <string name="ump_pay_ali">魔方支付宝</string>
+    <string name="ump_pay_bank">魔方银联卡</string>
+    <string name="ump_pay_bank_scan">魔方银联扫码</string>
+
+    <!--2017-08-14-->
+    <string name="host_not_found">Can not find the switchboard</string>
+    <string name="choose_host">Select the switchboard</string>
+    <string name="search_host">Search the switchboard</string>
+    <string name="api_type_unkonwn">Interface type unknown！</string>
+    <string name="money_error">Amount of error</string>
+    <string name="lowest_discount_warning">The lowest discount is：%1$s，The current discount：%2$s</string>
+    <!--20170831-->
+    <string name="delivery_subscribe">Reservations</string>
+    <string name="delivery_self">Self-help order</string>
+
+    <!--20170904-->
+    <string name="combo">Package: </string>
+
+    <!--2017-11-17-->
+    <string name="hang_order_has_changed">The documents have been changed. Please choose again</string>
+    <string name="case_product_can_not_check">The small goods do not participate in the inventory</string>
+    <string name="product_under_other_category">The goods are under other classification</string>
+
+    <!--21017-11-24-->
+    <string name="mark_no_can_not_null">The card number cannot be empty</string>
+    <string name="mark_no_can_not_zero">The number can not be 0</string>
+
+    <string name="flow_in_qty_tv">Retail Purchases</string>
+    <string name="gift_qty">Giving</string>
+    <string name="max_gift_qty">The maximum number of gifts is:%1$s</string>
+    <string name="all_gift_count">(Giving %1$s)</string>
+    <string name="all_gift_print_count">(Giving %1$s)</string>
+    <string name="gift_show">Giving</string>
+    <string name="flow_in_show">Flow in</string>
+
+    <string name="payment_setting">The new version should have been disabled. Please go to the cloud background -> setting -> payment Settings</string>
+    <string name="payment_null_toast">There is no available means of payment. Please go to the cloud background -> Settings -> payment Settings, and open the payment method that needs to be displayed.</string>
+
+    <string name="flow_request_all_buyprice">Total buyprice:</string>
+    <string name="flow_request_all_sellingprice">Total sellprice:</string>
+    <string name="sell_print_amount">(Amount:%1$s)</string>
+
+    <string name="customer_add_pet">Add Pet</string>
+    <string name="customer_pet_year">Age</string>
+    <string name="customer_pet_month">Month</string>
+    <string name="customer_pet_day">Day</string>
+    <string name="customer_pet_detail">Pet details</string>
+    <string name="customer_pet_detail_name">Name:</string>
+    <string name="customer_pet_detail_type">Type:</string>
+    <string name="customer_pet_detail_sex">Gender:</string>
+    <string name="customer_pet_detail_birth">Birthday:</string>
+    <string name="customer_pet_detail_sterilisation">Sterilization:</string>
+    <string name="customer_pet_detail_remark">Remark:</string>
+    <string name="customer_pet_detail_male">Male</string>
+    <string name="customer_pet_detail_female">Female</string>
+    <string name="customer_pet_edit">Edit</string>
+    <string name="customer_pet_detail_edit">Edit pet information</string>
+    <string name="customer_pet_search_hint">Enter a cat/dog variety pinyin first letter</string>
+    <string name="customer_pet_name_warning">The input name cannot be empty</string>
+    <string name="customer_pet_type_warning">Please select the pet type first</string>
+    <string name="customer_pet_add_success">New pet success!</string>
+    <string name="customer_pet_update_success">Modify pet success!</string>
+    <string name="customer_pet_delete_success">Delete pet success!</string>
+    <string name="customer_pet_adding">Adding a pet</string>
+    <string name="customer_pet_updating">Changing a pet</string>
+    <string name="customer_pet_deleting">Deleting a pet</string>
+    <string name="customer_pet_quantity">Pet population</string>
+    <string name="customer_pet_name">Pet name</string>
+    <string name="customer_pet_name_hint">Please enter the pet name</string>
+    <string name="unit_zhi"></string>
+
+    <!-- 2018-01-24 -->
+    <string name="refund_success">Refund success</string>
+    <string name="web_order_cancel_warning">Please enter Sales Report for refund</string>
+
+    <string name="shopping_card_unknow">Unknown(Not this store card)</string>
+
+</resources>

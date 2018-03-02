@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="www.pospal.cn.sungivenquickcashier.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="117dp"
+        android:layout_width="142dp"
+        android:layout_height="70dp"
+        android:background="@drawable/login_logo"
+        android:id="@+id/imageView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            android:background="@drawable/account"
+            android:id="@+id/account" />
+        <EditText
+            android:id="@+id/account_tv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_account"
+            android:singleLine="true"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:imeOptions="actionNext"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFCCCCCC"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="18dp"
+            android:layout_height="20dp"
+            android:background="@drawable/password"
+            android:id="@+id/password" />
+        <EditText
+            android:id="@+id/pass_word"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_password"
+            android:singleLine="true"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:imeOptions="actionGo"
+            android:inputType="textPassword"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFCCCCCC"
+        />
+    <RelativeLayout
+        android:layout_marginTop="24dp"
+
+        android:layout_width="300dp"
+        android:layout_height="44dp">
+        <TextView
+            android:id="@+id/login_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/login_btn_shap"
+            android:text="@string/login_in"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_centerVertical="true"
+            android:indeterminateDrawable="@drawable/loading" />
+    </RelativeLayout>
+
+</LinearLayout>

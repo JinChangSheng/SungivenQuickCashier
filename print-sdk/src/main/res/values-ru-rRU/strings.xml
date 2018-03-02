@@ -1,0 +1,530 @@
+<resources>
+    <string name="recharge_str">пополнить</string>
+    <string name="gift_str">дарить</string>
+    <string name="benefit_str">скидка</string>
+    <string name="input_first">ввести</string>
+    <string name="use">использовать</string>
+    <string name="test">проверить</string>
+    <string name="minute">минут</string>
+    <string name="book">забронировать</string>
+    <string name="store">магазин</string>
+    <string name="estore">интернет-магазин</string>
+    <string name="pay_by_cash">получить наличными</string>
+    <string name="recharge_by_cash">пополнить счет наличными</string>
+    <string name="barcode">штрих-код</string>
+    <string name="category">сортировать</string>
+    <string name="delete">удалить</string>
+    <string name="unit_ci">раз</string>
+    <string name="unit_zhang">столов</string>
+    <string name="unit_ren">количество людей</string>
+    <string name="choose">выбирать</string>
+    <string name="address">адрес</string>
+    <string name="tel">контактный телефон</string>
+    <string name="welcome">Спасибо большое! (Будем рады видеть Вас снова!)</string>
+    <string name="guider">официант</string>
+    <string name="stock_not_enough">Недостаточно складских запасов, сначала ввезите товары.</string>
+
+	<string name="printer_permise_success">Принтер авторизован успешно</string>
+	<string name="printer_permise_fail">Ошибка авторизации принтера</string>
+	<string name="printer_connect_success">Успешное подключение принтера</string>
+	<string name="printer_connect_fail">Ошибка подключения принтера</string>
+	<string name="printer_not_found">Не удается найти принтер</string>
+	<string name="printer_has_connected">Данный принтер подключен</string>
+	<string name="maybe_not_printer">Сбой подключения принтера, возможно ошибка не в устройстве.</string>
+	<string name="scale_readding">Подсчет данных в электронных весах</string>
+	<string name="printer_connectting">Подключение принтера</string>
+
+    <string name="toast_order_coming">Дорогие, в сети новый заказ!</string>
+    
+    <string name="json_error">ошибка</string>
+    
+    <string name="pay_type_cash">наличными</string>
+    <string name="pay_type_customer">Накопит. картой</string>
+    <string name="pay_type_uion">UnionPay</string>
+    
+    <string name="director_root">корневой каталог</string>
+    <string name="director_parent">родительский каталог</string>
+    <string name="ok">OK</string>
+    <string name="cancel">отменить</string>
+    <string name="product_name">название товара</string>
+    <string name="price">цена</string>
+    <string name="money">сумма</string>
+    <string name="paihao_str">номер стола</string>
+    <string name="time_str">время</string>
+    <string name="bys_last_msg">оплатить в ближайшей кассе</string>
+    <string name="all_qty_str">общее количество:</string>
+    <string name="all_money_str">цена:</string>
+    
+    <string name="customer_recharge">Пополнение счета клиентом</string>
+    <string name="cashier_str">кассир:</string>
+    <string name="num_str">порядковый номер:</string>
+    <string name="car_num_str">номер карты:</string>
+    <string name="before_money_str">сумма до пополнения:</string>
+    <string name="recharge_money_str">сумма пополнения:</string>
+    <string name="gift_money_str">бонусная сумма:</string>
+    <string name="after_money_str">сумма после пополнения:</string>
+    <string name="recharge_type_str">способ пополнения:</string>
+
+    <string name="handover_data">расписка пересменки</string>
+    <string name="all_odd">общий счёт</string>
+    <string name="all_amount">общий объем продаж</string>
+    <string name="cash">наличными</string>
+    <string name="bank_card">UnionPay</string>
+    <string name="customer_card">накопительной картой</string>
+    <string name="alipay">Alipay</string>
+    <string name="wxpay">Wxpay</string>
+    <string name="jdpay">Jdpay</string>
+    <string name="resolve_money">резервный фонд</string>
+    <string name="gift_money">бонусная сумма</string>
+    <string name="return_money">возвратная сумма</string>
+    <string name="online_pay">оплата онлайн</string>
+    
+    <string name="check_data">инвентаризационная ведомость</string>
+    <string name="stock">запас товара</string>
+    <string name="product_check">запас после инвентаризации</string>
+    <string name="check_1_str">инвентаризация:</string>
+    <string name="check_2_str">изменить:</string>
+    <string name="check_3_str">касса (наличные)</string>
+    <string name="check_finish">окончание инвентаризации</string>
+    <string name="check_list">инвентарный список</string>
+    
+    <string name="flow_in">расписка на поставленный товар</string>
+    <string name="flow_out">расписка на выданный товар</string>
+    <string name="name">название </string>
+    <string name="qty">Количество</string>
+    <string name="mark_str">примечание:</string>
+    <string name="all_flow_in">общий приход</string>
+    <string name="all_flow_out">общий выпуск</string>
+    <string name="flow_out_1_str">касса (наличные)</string>
+    <string name="flow_out_2_str">общая цена (штук):</string>
+    <string name="flow_data_done">Данный счет обработан</string>
+    <string name="flow_data_undo">Данный счет не обработан</string>
+    
+    <string name="flow_request">Расписка на пришедший товар</string>
+    <string name="flow_request_all">итого</string>
+    <string name="flow_request_1_str">93.касса (наличные)</string>
+    <string name="flow_request_2_str">общая цена (штук):</string>
+    <string name="flow_request_done">Заявление отправлено</string>
+    <string name="flow_request_undo">Заявление не отправлено</string>
+    <string name="flow_from">от</string>
+    <string name="flow_send_to">к</string>
+
+    <string name="kichen_all">главное управление кухни</string>
+    <string name="kichen_printer">принтер кухни</string>
+    <string name="return_goods">брак</string>
+    <string name="table_num">номер столов:</string>
+    <string name="type_str">тип:</string>
+    <string name="pay_type_str">форма платежа:</string>
+    <string name="pay_last_str">восполнить остаток:</string>
+    <string name="pay_money_str">данный вычет:</string>
+    <string name="current_point_str">настоящие бонусы:</string>
+    <string name="real_pay_money_str">фактический доход:</string>
+    <string name="charge_str">сдача:</string>
+    <string name="receipt_undo_str">примечание: возврат денег, перечень не составлять</string>
+    <string name="cnt_fen">порций</string>
+    
+    <string name="table_receipt_num">Номер счета: </string>
+    <string name="table_receipt_msg">Добро пожаловать!</string>
+    <string name="table_receipt_name">Название товара: </string>
+    <string name="table_receipt_price">Цена: </string>
+    <string name="table_receipt_remarks">Примечание: </string>
+    <string name="table_receipt_qty">Количество  </string>
+    <string name="table_receipt_delivery_type">Тип заказов: </string>
+    <string name="table_receipt_dayseq">доставка счета: </string>
+
+    <string name="send_receipt">Накладная</string>
+    <string name="balance_pay">Баланс потребления</string>
+    <string name="pay_face">Оплата при доставке</string>
+    <string name="point_ex_money_str">накопительные бонусы:</string>
+    <string name="add_print_receipt">Дополнить расписку</string>
+    <string name="name_str">Имя:</string>
+    <string name="tel_str">Тел.:</string>
+    <string name="addr_str">Адрес доставки:</string>
+    <string name="customer_remarks_str">Примечание клиента:</string>
+    <string name="null_str">Нет</string>
+    <string name="not_pay">Не оплачено</string>
+    <string name="customer_str">VIP:</string>
+    <string name="customer_num_str">Номер VIP:</string>
+    <string name="balance_str">Баланс:</string>
+    <string name="point_str">бонусные баллы:</string>
+    <string name="table_receipt">проверка заказа</string>
+    <string name="del_sale_receipt">чек об отмене заказа</string>
+    <string name="del_return_receipt">чек за возврат оплаты</string>
+    <string name="return_receipt">Накладная на возврат</string>
+    <string name="for_pay">Пожалуйста, заберите это на стойке регистрации</string>
+
+    <string name="http_error_account_login">Ошибка с авторизацией учетной записи, обратитесь в службу поддержки для решения.</string>
+    <string name="http_error_cashier_login">Ошибка входа кассира, обратитесь в службу поддержки для решения.</string>
+    <string name="http_error_handover">Ошибка пересменки, данные будут загружены при следующем входе в систему.</string>
+    <string name="http_error_validate_coupon">Ошибка проверки купона</string>
+    <string name="http_success_use_coupon">Купон успешно использован</string>
+    <string name="http_error_use_coupon">Ошибка использования купона</string>
+    <string name="http_success_add_coupon">Купон успешно добавлен</string>
+    <string name="http_error_add_coupon">Ошибка добавления купона</string>
+    <string name="http_error_validate_customer">Ошибка проверки VIP</string>
+    <string name="http_error_search_customer">Ошибка поиска VIP</string>
+    <string name="http_error_recharge_customer">Ошибка пополнения счета VIP</string>
+    <string name="http_error_add_customer">Ошибка добавления VIP</string>
+    <string name="http_error_get_customer_ctg">Ошибка получения классификации VIP</string>
+    <string name="http_error_get_user_conf">Ошибка получения установки пользователя</string>
+    <string name="http_error_regist_user">Ошибка регистрации нового пользователя</string>
+    <string name="http_error_account_password">Неверный пароль</string>
+    <string name="http_error_sync">Ошибка синхронизации</string>
+    <string name="http_error_sync_time_out">Синхронизация сервера в режиме ожидания</string>
+    <string name="http_error_sync_1">синхронизация</string>
+    <string name="http_error_sync_2">Ошибка</string>
+    <string name="http_error_get_stock">Ошибка получения складских запасов</string>
+    <string name="http_error_check">Ошибка инвентаризации товара</string>
+    <string name="http_error_stock_in">Ошибка хранения на складе</string>
+    <string name="http_error_request">Ошибка заказа товаров</string>
+    <string name="http_error_get_stocks">Ошибка получения складских запасов</string>
+    <string name="http_error_guess_product">Предположительно ошибка товара</string>
+    <string name="http_error_add_product">Ошибка добавления товаров</string>
+    <string name="http_error_get_user_info">Не удалось получить информацию о пользователе</string>
+    <string name="http_error_get_store_info">Не удалось получить информацию о магазине</string>
+    <string name="http_error_pay">Ошибка платежа</string>
+    <string name="http_error_valid_pay">Подтверждение ошибки платежа</string>
+    <string name="http_success_send">Товар успешно отправлен</string>
+    <string name="http_success_del">Успешное аннулирование</string>
+    <string name="http_error_send">Ошибка отправки товара</string>
+    <string name="http_error_del">Ошибка аннулирования</string>
+    <string name="http_error_comfirm_weborder">Ошибка подтверждения заказа</string>
+    <string name="table_not_hang">Данный стол не сделал заявку</string>
+    <string name="table_exchange_only_null">Менять только на свободные столы </string>
+
+    <string name="pay_type_estore_alipay">Alipay</string>
+    <string name="pay_type_estore_customer">Пополнять счёт VIP в интернет-магазине</string>
+    <string name="pay_type_estore_cash">Наличные интернет-магазина</string>
+
+    <string name="use_pass_product">Расходы абонемента</string>
+    <string name="buy_pass_product">Купить абонемент</string>
+
+    <string name="print_use_pass_product_1">В этот раз Вы пользуетесь</string>
+    <string name="print_use_pass_product_2">раз[</string>
+    <string name="print_use_pass_product_3">]</string>
+    <string name="print_use_pass_product_last">Оставшееся доступное количество:</string>
+    <string name="print_use_pass_product_customer_name">VIP:</string>
+    <string name="print_use_pass_product_customer_card">номер карты:</string>
+    <string name="print_use_pass_product_customer_tel">тел.:</string>
+
+	<string name="print_buy_pass_product_info_32">название абонемента        кратность использования    цена</string>
+	<string name="print_buy_pass_product_info_42">название абонемента             кратность использования         цена</string>
+	<string name="print_buy_pass_product_info_48">название абонемента                кратность использования            цена</string>
+
+	<string name="pay_type_pass_product">абонемент</string>
+	<string name="pay_type_shopping_card">платежная карта</string>
+	<string name="http_error_flow">Ошибка ввоза и вывоза товара</string>
+	<string name="flow_request_reject">Заявка была отклонена</string>
+	<string name="pay_type_credit">в кредит</string>
+
+	<string name="cashbox_money">Общая сумма в денежном ящике</string>
+	<string name="table_end">Ошибка квитанции об оплате</string>
+
+    <string name="printer_test"> Успешная проверка принтера</string>
+    <string name="receipt_mdf_str">Примечание: изменение количества, повторный ввод запрещен</string>
+	<string name="logout_error_handover">Ошибка пересменки, попробовать снова</string>
+
+	<string name="kitchenNotServing">блюдо еще не подали</string>
+	<string name="kitchenServed">Блюдо подано</string>
+	<string name="kitchenQuick">Напомнить о блюде</string>
+    <string name="receipt_quick_str">Примечание: напомнить о блюде, поторопить подачу</string>
+    <string name="sale_product_table">Отчёт о реализации товара</string>
+    <string name="statistical_time">статистическое время:</string>
+    <string name="start">начало </string>
+    <string name="end">конец </string>
+	<string name="pay_type_estore_weixin">WeChat</string>
+    <string name="refund_pass_product">вернуть хронометражную карту</string>
+
+    <string name="led_can_not_connect">Невозможно подключиться к дисплею клиента</string>
+    <string name="led_can_not_find">Дисплей клиента не найден</string>
+    <string name="led_can_not_setting">Ошибка установки дисплея клиента</string>
+    <string name="led_can_not_open">Невозможно подключение дисплея клиента</string>
+    <string name="led_connect">Дисплей клиента подключен</string>
+
+	<string name="contain_pass_product">Включая хронометражную карту</string>
+	<string name="not_contain_return_amount"> [Не включая возврат товара]</string>
+	<string name="http_error_generate_pay_qrcode">Ошибка получения QR-кода платежа</string>
+	<string name="scan_zfb">Отсканировать QR-код через Alipay</string>
+	<string name="scan_weixin">Отсканировать QR-код через WeChat</string>
+	<string name="pay_type_koolpos">Пробить через кассу</string>
+	<string name="mdf_product_qty_success">Успешное изменение товара</string>
+	<string name="del_hang_ok">Успешное удаление заявки</string>
+
+	<string name="hang_phone_host_error">Невозможно сделать заявку через мобильное приложение</string>
+	<string name="hang_account_error">Аккаунт постового аппарата не совпадает с аккаунтом главного устройства</string>
+	<string name="hang_mode_error">Невозможно одновременно использовать модель номера столов и модель номера чека</string>
+	<string name="hang_add_none_error">Невозможно добавить свободные столы</string>
+	<string name="hang_host_no_table_error">Нет номера данного стола:</string>
+	<string name="hang_combined_single_error">Данный стол уже соединился с другим столом, отдельная эксплуатация невозможна</string>
+	<string name="hang_combined_split_error">Данный стол уже соединился с другим столом, отдельная эксплуатация невозможна</string>
+	<string name="hang_combined_need_more_error">Выберите несколько столов для соединения</string>
+	<string name="hang_single_need_one_error">Отдельный стол может выбрать лишь один стол</string>
+	<string name="hang_split_need_one_error">Выбрать один стол, чтобы разделить трапезу</string>
+	<string name="hang_combined_need_none_table_error">Выберите свободный стол для соединения</string>
+	<string name="hang_no_table_error">Пожалуйста, сначала выберите стол, и только потом сделайте заявку</string>
+	<string name="confirm_combine_table">Подтвердить соединение столов</string>
+	<string name="combine_table_checkout">Оплатить счет объединившись столами</string>
+	<string name="empty_table">Свободный стол</string>
+	<string name="hang_all_recovery">Полное восстановление</string>
+	<string name="get_host_hang_order_error">Ошибка аппарата при получении заявки!</string>
+
+	<string name="hang_no_receipt_error">Не удается найти расписку</string>
+	<string name="hang_no_item_error">Не удается найти расписку товара</string>
+
+	<string name="client_serving">Постовой аппарат подал блюдо</string>
+	<string name="client_change">Постовой аппарат изменил заявку</string>
+	<string name="client_del_order">Постовой аппарат удалил заявку</string>
+	<string name="client_add">Постовой аппарат добавил заявку</string>
+
+	<string name="hang_connect_error">Ошибка подключения кассира</string>
+	<string name="hang_timeout_error">Соединение в режиме ожидания</string>
+	<string name="hang_return_error">Ошибка возврата кассира</string>
+	<string name="hang_data_error">Ошибка передачи данных</string>
+	<string name="hang_other_error">Другая ошибка</string>
+	<string name="hang_handler_ok">Успешная операция</string>
+
+    <string name="unit">единица</string>
+	<string name="http_error_product_conf">Ошибка получения полуфабриката</string>
+	<string name="http_error_product_produce">Ошибка изготовления полуфабрикат</string>
+	<string name="http_error_produce_null">Нет полуфабриката</string>
+	<string name="http_error_online_reverse">Ошибка оплаты онлайн</string>
+	<string name="product_produce_success">Успешное производство полуфабриката</string>
+	<string name="scan_feedback">Оценка сканирования QR-кода </string>
+	<string name="flow_to_store">Выпуск товара в:</string>
+
+	<string name="exchange_table_to">Пересесть в </string>
+	<string name="check_zero_data">Расписка остатков</string>
+	<string name="check_zero">Подсчитать остатки</string>
+	<string name="check_zero_1_str">Подсчитать остатки:</string>
+	<string name="check_zero_finish">Завершение подсчета остатков</string>
+	<string name="check_zero_list">Список остатков</string>
+	<string name="http_error_check_zero">Ошибка подсчета остатков</string>
+	<string name="recovery">Восстановить</string>
+	<string name="exit_ad">Заказать</string>
+	<string name="error_reprint">Упс, ошибка, пожалуйста, не вводите заново</string>
+	<string name="receipt_backup">Резервная копия квитанции</string>
+
+    <string name="combo_ctg">Kомплект промо-акций</string>
+    <string name="error_get_picture">Ошибка изображения</string>
+    <string name="dst_str">скидка</string>
+    <string name="hang_order">сделать заявку</string>
+
+    <string name="flow_system">следовать системе </string>
+    <string name="net_3g_cm">3G</string>
+    <string name="net_3g_other">3G</string>
+    <string name="net_4g">4G</string>
+    <string name="label_tsc">TSC соглашение</string>
+    <string name="label_ezpl">EZPL соглашение</string>
+
+	<string name="scan_jd">JDpay</string>
+	<string name="pay_type_allinpay">Allinpay</string>
+    <string name="pay_type_allinpay_scan">Allinpay</string>
+    <string name="pay_type_allinpay_ali">Allinpay</string>
+    <string name="pay_type_allinpay_wx">Allinpay</string>
+    <string name="pay_type_allinpay_bd">Allinpay</string>
+    <string name="pay_type_allinpay_alp">Allinpay</string>
+
+	<string name="pay_type_more">ещё больше</string>
+	<string name="wifi_not_open">WIFI не включен</string>
+
+	<string name="have_shopping_cards"> Имеющаяся платежная карточка:</string>
+	<string name="recharge_money_to">Пополнить счет через:</string>
+	<string name="gift_money_to">Подарить через:</string>
+	<string name="recharge_gen">Общий баланс</string>
+	<string name="start_up_date_time">Начальная дата:</string>
+	<string name="expire_date_time">Дата истечения срока:</string>
+	<string name="validity_date">Срок действия:</string>
+	<string name="exp_unlimited">Без срока действия </string>
+	<string name="receipt_mdf_price_str">Примечание: измененная цена, не переделывать</string>
+	<string name="discard_receipt">Товар поврежден</string>
+	<string name="discard_reason">Причина</string>
+	<string name="discard_finish">Завершение отчета о повреждении</string>
+	<string name="http_error_discard">Ошибка отчета о повреждении</string>
+	<string name="discard_chang_str">сумма поврежденных товаров</string>
+	<string name="discard_chang_2_str">общая закупочная цена (штук)</string>
+
+	<string name="summaries_report">Отчет о ежедневном балансе</string>
+	<string name="summaries_amount">Сумма продаж</string>
+	<string name="summaries_receipt_cnt">Количество продаж</string>
+	<string name="summaries_profit"> Прибыль от реализации</string>
+	<string name="summaries_pass_product">Расход дополнительной карты</string>
+	<string name="summaries_customer_recharge">Пополнение счета VIP</string>
+	<string name="summaries_payments">Статистика платежа</string>
+	<string name="summaries_promotions">Статистика маркетинга</string>
+	<string name="summaries_receipt_cnt_in_store">Количество чеков в кафе</string>
+	<string name="summaries_receipt_cnt_out_store">Количество чеков на вынос</string>
+	<string name="summaries_amount_in_store">Сумма продаж в заведении</string>
+	<string name="summaries_people_in_store">поток клиентов в кафе</string>
+	<string name="summaries_avg_in_store">средний расход</string>
+	<string name="http_error_get_summaries">Ошибка получения данных ежедневного баланса</string>
+	<string name="http_error_add_summaries">Ошибка передачи данных ежедневного баланса</string>
+	<string name="other">Другое</string>
+	<string name="query_sync_time_less">В течение 5 минут ручная синхронизация возможна 1 раз</string>
+	<string name="handover_after_crash">Проблемы пересменки</string>
+
+	<string name="history_handover">История пересменки</string>
+	<string name="promotion_summaries">Статистика промо-акций</string>
+
+	<string name="promotion_none">Не участвовать в промо-акции</string>
+	<string name="promotion_gift">Бонусная акция</string>
+	<string name="promotion_product_redemption">Акция обмена</string>
+	<string name="promotion_product_discount">Сниженная цена</string>
+	<string name="promotion_product_half_price">Скидка на второй заказ</string>
+	<string name="customer_discount">VIP скидка</string>
+	<string name="item_manual_discount">Ручное управление скидками</string>
+	<string name="promotion_combo">Комплексная акция</string>
+	<string name="promotion_cash_back">кэшбек при заказе на определенную сумму</string>
+	<string name="customer_pass_product_discount">Скидка дополнительной карты</string>
+	<string name="customer_point_exchange_money_discount">Обналичить бонусы</string>
+	<string name="customer_point_exchange_product_discount">Обменять бонусы</string>
+	<string name="entire_discount">Скидка чека</string>
+	<string name="enjoy_customer_discount"></string>
+	<string name="promotion_type">Вид промо-акции</string>
+	<string name="amount">Сумма</string>
+
+	<string name="pay_type_tp">Платеж от третьего лица</string>
+    <string name="manager_account_can_not_sale">Невозможно совершить продажу через аккаунт головного офиса</string>
+
+    <string name="device_not_support_nfc">Устройство не поддерживает NFC</string>
+    <string name="device_start_nfc_warning">Пожалуйста, включите NFC в настройках!</string>
+    <string name="scale_error">Ошибка электронных весов</string>
+
+    <string name="delivery_type_send">Доставка</string>
+    <string name="delivery_type_take">На вынос</string>
+    <string name="delivery_type_current">В кафе</string>
+    <string name="delivery_type_get_hang">Получить чек</string>
+
+    <string name="usb_printer_disconnect">Разъединение USB принтера</string>
+
+    <string name="printer_name_receipt">Принтер кассы</string>
+    <string name="printer_name_kitchen">Принтер кухни</string>
+    <string name="printer_name_table">Принтер проверки чеков</string>
+    <string name="printer_name_label">Принтер ярлыков</string>
+    <string name="printer_name_bluetooth">Принтер блютуса</string>
+    <string name="printer_name_usb_receipt">Ярлык USB принтера</string>
+    <string name="printer_name_usb_label">USB принтер</string>
+    <string name="printer_name_serial">Принтер последовательного порта</string>
+    <string name="printer_name_inner">Принтер внутренних чеков</string>
+
+    <string name="self_service">Заказ блюд через электронное меню</string>
+    <string name="str_XH">*</string>
+    <string name="default_zero_decimal">0.00</string>
+
+    <string name="shelf_life">Срок годности: %1$d (дней)</string>
+    <string name="delivery_type">Тип заказов</string>
+    <string name="continue_str">Продолжать</string>
+    <string name="hys_can_not_buy_current_price">Невозможно купить товары рыночной цены через самостоятельный заказ.</string>
+    <string name="customer_pay_success">Успешный платеж VIP</string>
+    <string name="customer_pay_fail">Ошибка платежа VIP</string>
+    <string name="paying">Процесс оплаты</string>
+    <string name="customer_refrush">Обновить данные VIP</string>
+    <string name="tel_fail_warning">При ошибке данного оборудования, пожалуйста, звоните по номеру: 400-806-6866</string>
+    <string name="from_table_not_found">Не удается найти начальный стол</string>
+    <string name="to_table_not_found">Не удается найти целевой стол</string>
+    <string name="table_exchange_only_single">Можно изменить только отдельный стол</string>
+    <string name="table_exchange_success">Успешное изменение стола</string>
+    <string name="client_table_exchanging">Постовой аппарат меняет стол...</string>
+    <string name="client_table_exchanged">Постовой аппарат поменял стол</string>
+    <string name="refresh_pass_product">Обновить дополнительную карту VIP</string>
+    <string name="pass_product_lack">Недостаточное число раз на данной карте, остался %1$d раз, пожалуйста, выберите дополнительную карту.</string>
+    <string name="refresh_shopping_card">Обновлять платежную карточку VIP</string>
+    <string name="shopping_card_changed">Баланс данной платежной карточки изменился, пожалуйста, выберите карту еще раз</string>
+    <string name="use_pass_product_fail">Ошибка использования дополнительной карты</string>
+    <string name="list_end">Уже завершается</string>
+    <string name="at_least_one_payment">Показать минимум один способ оплаты</string>
+    <string name="need_refund_payment">Нет способа оплаты возврата товара, пожалуйста, установите</string>
+    <string name="payment_not_support">Способ платежа не поддерживается</string>
+
+    <string name="delivery_type_web_order">Интернет-заказ</string>
+	<string name="payment_config_drag_1">Длит. нажатие</string>
+	<string name="payment_config_drag_2">Можно измен. очередь знаков</string>
+	<string name="no_code_product">нет кода товара</string>
+	<string name="no_code_product_not_free">нет кода товара, цена не может равняться 0</string>
+
+	<!--2017-05-02-->
+	<string name="connected_str">Соединено</string>
+	<string name="setting_bluetooth_printer">"Блютуз-принтер"</string>
+	<string name="bluetooth_paired">"Соединение с оборудованием"</string>
+	<string name="bluetooth_not_printer">Данное оборудование возможно не является блютуз принтером, после соединения возможно не будет печати!</string>
+	<string name="bluetooth_is_closed">Блютуз не включен</string>
+	<string name="printer_not_connected">Подключ. принтер</string>
+	<string name="printer">Принтер</string>
+	<string name="disconnected_str">Соед-е разорвано</string>
+	<string name="has_colsed_str">Выключен</string>
+
+    <!--2017-05-18-->
+    <string name="set_network_manual">стан. интернет в настройках</string>
+    <!--2017-05-24-->
+    <string name="handle_hang_order">Заявка в обработке</string>
+    <string name="history_order_search_warning">Используйте поиск </string>
+    <string name="printer_name_bluetooth_label">Машинка для печати ярлыков</string>
+    <string name="price_after_discount">Цена со скидкой</string>
+
+    <string name="client_can_pos_alipay">Ali-pay осн. развертка</string>
+    <string name="client_can_pos_wxpay">WeChat-pay осн. развертка</string>
+    <string name="pos_can_client_alipay">Ali-pay второстеп. развертка</string>
+    <string name="pos_can_client_wxpay">WeChat-pay второстеп. развертка</string>
+
+    <!--2017-06-13-->
+    <string name="product_tag_changed">В облаке изменился вкус, заново выберите товар</string>
+    <string name="tax">Налог</string>
+    <string name="service_fee">Обслуживание</string>
+    <string name="product_include_tax">Товар вкл. налоги</string>
+
+    <string name="handover_net_amount">不含税费销售额</string>
+    <string name="service_amount">服务费总额</string>
+    <string name="tax_amount">税收总额</string>
+
+    <!--2017-08-10-->
+    <string name="key_recovery"></string>
+
+	<string-array name="dst_values">
+        <item >95</item>
+        <item >90</item>
+        <item >88</item>
+        <item >85</item>
+        <item >80</item>
+        <item >75</item>
+        <item >70</item>
+        <item >60</item>
+        <item >50</item>
+        <item >00</item>
+    </string-array>
+
+    <string-array name="kitchen_state">
+        <item >@string/kitchenNotServing</item>
+        <item >@string/kitchenServed</item>
+    </string-array>
+
+	<string-array name="net_type">
+		<item >WIFI</item>
+		<item >@string/net_3g_cm</item>
+		<item >@string/net_3g_other</item>
+		<item >@string/net_4g</item>
+	</string-array>
+
+	<string-array name="label_type">
+		<item >@string/label_tsc</item>
+		<item >@string/label_ezpl</item>
+	</string-array>
+
+	<string-array name="scale_digit_type">
+		<item >2</item>
+		<item >3</item>
+	</string-array>
+
+    <string-array name="baudrate_values">
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+        <item >230400</item>
+        <item >460800</item>
+        <item >500000</item>
+    </string-array>
+
+    <string name="default_input_ip">"192.168.1."</string>
+</resources>

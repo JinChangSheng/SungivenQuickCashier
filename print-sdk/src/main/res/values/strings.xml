@@ -1,0 +1,863 @@
+<resources>
+    <string name="recharge_str">充</string>
+    <string name="gift_str">赠</string>
+    <string name="benefit_str">优惠</string>
+    <string name="input_first">请先输入</string>
+    <string name="use">使用</string>
+    <string name="test">验证</string>
+    <string name="minute">分钟</string>
+    <string name="book">预约</string>
+    <string name="store">门店</string>
+    <string name="estore">网店</string>
+    <string name="pay_by_cash">现金收款</string>
+    <string name="recharge_by_cash">现金充值</string>
+    <string name="barcode">条码</string>
+    <string name="category">分类</string>
+    <string name="delete">删除</string>
+    <string name="unit_ci">次</string>
+    <string name="unit_zhang">张</string>
+    <string name="unit_ren">人</string>
+    <string name="choose">选</string>
+    <string name="address">地址</string>
+    <string name="tel">联系电话</string>
+    <string name="welcome">谢谢惠顾！欢迎下次光临！</string>
+    <string name="guider">导购员</string>
+    <string name="remark">备注</string>
+    <string name="stock_not_enough">商品库存不足，请先进货</string>
+
+	<string name="printer_permise_success">打印机授权成功</string>
+	<string name="printer_permise_fail">打印机授权失败</string>
+	<string name="printer_connect_success">打印机连接成功</string>
+	<string name="printer_connect_fail">打印机连接失败</string>
+	<string name="printer_not_found">找不到打印机</string>
+	<string name="printer_has_connected">该打印机已连接</string>
+	<string name="maybe_not_printer">打印机连接失败,连接的可能不是打印设备</string>
+	<string name="scale_readding">电子秤读取数据中</string>
+	<string name="printer_connectting">打印机连接中</string>
+
+    <string name="toast_order_coming">亲，您有新的网络订单需要处理！</string>
+    
+    <string name="json_error">出现错误</string>
+    
+    <string name="pay_type_cash">现金</string>
+    <string name="pay_type_customer">储值卡</string>
+    <string name="pay_type_uion">银联卡</string>
+    
+    <string name="director_root">当前目录为根目录！</string>
+    <string name="director_parent">上层目录</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="product_name">品名</string>
+    <string name="price">单价</string>
+    <string name="money">金额</string>
+    <string name="paihao_str">牌号</string>
+    <string name="time_str">时间</string>
+    <string name="bys_last_msg">请到最近收银台收银</string>
+    <string name="all_qty_str">总件数:</string>
+    <string name="all_money_str">价格:</string>
+    
+    <string name="customer_recharge">会员充值</string>
+    <string name="cashier_str">收银员:</string>
+    <string name="num_str">编号:</string>
+    <string name="car_num_str">卡号:</string>
+    <string name="before_money_str">充值前金额:</string>
+    <string name="recharge_money_str">充值金额:</string>
+    <string name="gift_money_str">赠送金额:</string>
+    <string name="after_money_str">充值后金额:</string>
+    <string name="recharge_type_str">充值方式:</string>
+
+    <string name="handover_data">交接班单据</string>
+    <string name="all_odd">总单数</string>
+    <string name="all_amount">总销售额</string>
+    <string name="cash">现金</string>
+    <string name="bank_card">银联卡</string>
+    <string name="customer_card">储值卡</string>
+    <string name="alipay">支付宝</string>
+    <string name="wxpay">微支付</string>
+    <string name="jdpay">京东支付</string>
+    <string name="resolve_money">备用金</string>
+    <string name="gift_money">赠送金额</string>
+    <string name="return_money">退货金额</string>
+    <string name="online_pay">在线支付</string>
+    
+    <string name="check_data">盘点单据</string>
+    <string name="stock">库存</string>
+    <string name="product_check">盘后库存</string>
+    <string name="check_1_str">盘点:</string>
+    <string name="check_2_str">变更:</string>
+    <string name="check_3_str">款</string>
+    <string name="check_finish">完成盘点</string>
+    <string name="check_list">盘点清单</string>
+    
+    <string name="flow_in">进货单据</string>
+    <string name="flow_out">出货单据</string>
+    <string name="name">名称</string>
+    <string name="qty">数量</string>
+    <string name="mark_str">备注:</string>
+    <string name="all_flow_in">总进货</string>
+    <string name="all_flow_out">总出货</string>
+    <string name="flow_out_1_str">款</string>
+    <string name="flow_out_2_str">件,总价:</string>
+    <string name="flow_data_done">该单据已经处理</string>
+    <string name="flow_data_undo">该单据未处理</string>
+    
+    <string name="flow_request">进货申请单据</string>
+    <string name="flow_request_all">总共</string>
+    <string name="flow_request_1_str">款</string>
+    <string name="flow_request_2_str">件,总价:</string>
+    <string name="flow_request_done">该申请已经发送</string>
+    <string name="flow_request_undo">该申请未发送</string>
+    <string name="flow_from">来自</string>
+    <string name="flow_send_to">发往</string>
+
+    <string name="kichen_all">厨房总控</string>
+    <string name="kichen_printer">厨房打印机</string>
+    <string name="return_goods">退货</string>
+    <string name="table_num">桌号:</string>
+    <string name="type_str">类型:</string>
+    <string name="pay_type_str">付款方式:</string>
+    <string name="pay_last_str">余额补足:</string>
+    <string name="pay_money_str">本次扣款:</string>
+    <string name="current_point_str">本次积分:</string>
+    <string name="real_pay_money_str">实收款:</string>
+    <string name="charge_str">找零:</string>
+    <string name="receipt_undo_str">注:退款，单子不做了</string>
+    <string name="cnt_fen">份</string>
+    
+    <string name="table_receipt_num">单号：</string>
+    <string name="table_receipt_msg">欢迎光临！</string>
+    <string name="table_receipt_name">品名：</string>
+    <string name="table_receipt_price">价格：</string>
+    <string name="table_receipt_remarks">备注：</string>
+    <string name="table_receipt_qty">数量</string>
+    <string name="table_receipt_delivery_type">点送方式：</string>
+    <string name="table_receipt_dayseq">派单序号：</string>
+
+    <string name="send_receipt">发货单</string>
+    <string name="balance_pay">余额消费</string>
+    <string name="pay_face">货到付款</string>
+    <string name="point_ex_money_str">积分抵现:</string>
+    <string name="add_print_receipt">补打单据</string>
+    <string name="name_str">姓名:</string>
+    <string name="tel_str">电话:</string>
+    <string name="addr_str">送货地址:</string>
+    <string name="customer_remarks_str">客人备注:</string>
+    <string name="null_str">无</string>
+    <string name="not_pay">未付款</string>
+    <string name="customer_str">会员:</string>
+    <string name="customer_num_str">会员号:</string>
+    <string name="balance_str">余额:</string>
+    <string name="point_str">积分:</string>
+    <string name="table_receipt">压桌单</string>
+    <string name="del_sale_receipt">反结账销售单据</string>
+    <string name="del_return_receipt">反结账退货收据</string>
+    <string name="return_receipt">退货单据</string>
+    <string name="for_pay">请携此单到前台付款</string>
+
+    <string name="http_error_account_login">账号登录出现问题，请联系客服解决</string>
+    <string name="http_error_cashier_login">收银员登录出现问题，请联系客服解决</string>
+    <string name="http_error_handover">交接班失败，交接班数据会在下次登录上传</string>
+    <string name="http_error_validate_coupon">优惠券验证错误</string>
+    <string name="http_success_use_coupon">优惠券使用成功</string>
+    <string name="http_error_use_coupon">优惠券使用失败</string>
+    <string name="http_success_add_coupon">优惠券添加成功</string>
+    <string name="http_error_add_coupon">优惠券添加失败</string>
+    <string name="http_error_validate_customer">会员验证错误</string>
+    <string name="http_error_search_customer">搜索会员出错</string>
+    <string name="http_error_recharge_customer">会员充值失败</string>
+    <string name="http_error_add_customer">添加会员出错</string>
+    <string name="http_error_get_customer_ctg">获取会员分类出错</string>
+    <string name="http_error_get_user_conf">获取用户配置出错</string>
+    <string name="http_error_regist_user">新用户注册失败</string>
+    <string name="http_error_account_password">输入的账号密码错误</string>
+    <string name="http_error_sync">同步出错</string>
+    <string name="http_error_sync_time_out">同步时候服务器超时</string>
+    <string name="http_error_sync_1">同步</string>
+    <string name="http_error_sync_2">出现错误</string>
+    <string name="http_error_get_stock">获取库存出错</string>
+    <string name="http_error_check">商品盘点失败</string>
+    <string name="http_error_stock_in">商品入库失败</string>
+    <string name="http_error_request">商品订货失败</string>
+    <string name="http_error_get_stocks">获取商品库存失败</string>
+    <string name="http_error_guess_product">猜测商品失败</string>
+    <string name="http_error_add_product">添加商品失败</string>
+    <string name="http_error_get_user_info">获取用户信息失败</string>
+    <string name="http_error_get_store_info">获取店铺信息失败</string>
+    <string name="http_error_pay">付款出现错误</string>
+    <string name="http_error_valid_pay">确认付款出现错误</string>
+    <string name="http_success_send">发货成功</string>
+    <string name="http_success_del">作废成功</string>
+    <string name="http_error_send">发货操作失败</string>
+    <string name="http_error_del">作废操作失败</string>
+    <string name="http_error_comfirm_weborder">确认订单失败</string>
+    <string name="table_not_hang">该桌没有挂单</string>
+    <string name="table_exchange_only_null">只能换到空桌</string>
+
+    <string name="pay_type_estore_alipay">网店支付宝</string>
+    <string name="pay_type_estore_customer">网店会员储值</string>
+    <string name="pay_type_estore_cash">网店现金</string>
+
+    <string name="use_pass_product">次卡消费</string>
+    <string name="buy_pass_product">购买次卡</string>
+
+    <string name="print_use_pass_product_1">本次您使用</string>
+    <string name="print_use_pass_product_2">次[</string>
+    <string name="print_use_pass_product_3">]</string>
+    <string name="print_use_pass_product_last">剩余可用次数:</string>
+    <string name="print_use_pass_product_customer_name">会员:</string>
+    <string name="print_use_pass_product_customer_card">卡号:</string>
+    <string name="print_use_pass_product_customer_tel">电话:</string>
+
+	<string name="print_buy_pass_product_info_32">次卡名称\u0020\u0020\u0020\u0020\u0020\u0020\u0020使用次数\u0020\u0020\u0020\u0020价格</string>
+	<string name="print_buy_pass_product_info_42">次卡名称\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020使用次数\u0020\u0020\u0020\u0020\u0020\u0020\u0020价格</string>
+	<string name="print_buy_pass_product_info_48">次卡名称\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020使用次数\u0020\u0020\u0020\u0020\u0020\u0020\u0020价格</string>
+
+	<string name="pay_type_pass_product">次卡</string>
+	<string name="pay_type_shopping_card">购物卡</string>
+	<string name="http_error_flow">进出货失败</string>
+	<string name="flow_request_reject">该申请已经拒绝</string>
+	<string name="pay_type_credit">赊账</string>
+
+	<string name="cashbox_money">钱箱总额</string>
+	<string name="table_end">此单不作为结账小票用</string>
+
+    <string name="printer_test">打印机测试成功</string>
+    <string name="receipt_mdf_str">注:修改数量，勿重做</string>
+	<string name="logout_error_handover">交接班失败，请重试</string>
+
+	<string name="kitchenNotServing">未上菜</string>
+	<string name="kitchenServed">已上菜</string>
+	<string name="kitchenQuick">催菜</string>
+    <string name="receipt_quick_str">注:催菜，加快制作</string>
+    <string name="sale_product_table">销售商品报表</string>
+    <string name="statistical_time">统计时间:</string>
+    <string name="start">起始 </string>
+    <string name="end">结束 </string>
+	<string name="pay_type_estore_weixin">网店微信</string>
+    <string name="refund_pass_product">退回次卡</string>
+
+    <string name="led_can_not_connect">客显无法连接</string>
+    <string name="led_can_not_find">没有找到客显设备</string>
+    <string name="led_can_not_setting">设置客显设备出错</string>
+    <string name="led_can_not_open">客显设备无法打开</string>
+    <string name="led_connect">客显设备已连接</string>
+
+	<string name="contain_pass_product">含次卡</string>
+	<string name="not_contain_return_amount">[不含退货]</string>
+	<string name="http_error_generate_pay_qrcode">获取付款二维码出错</string>
+	<string name="scan_zfb">支付宝扫一扫</string>
+	<string name="scan_weixin">微信扫一扫</string>
+	<string name="pay_type_koolpos">收银通</string>
+	<string name="mdf_product_qty_success">修改商品成功</string>
+	<string name="del_hang_ok">删除挂单成功</string>
+
+	<string name="hang_phone_host_error">手机版无法做为总机进行挂单</string>
+	<string name="hang_account_error">分机与主机登录的账号不相同</string>
+	<string name="hang_mode_error">桌号模式和牌号模式无法同时使用</string>
+	<string name="hang_add_none_error">空桌无法追加</string>
+	<string name="hang_host_no_table_error">主机查无该桌号:</string>
+	<string name="hang_combined_single_error">该桌已经并桌，无法单桌操作</string>
+	<string name="hang_combined_split_error">该桌已经并桌，无法拼桌操作</string>
+	<string name="hang_combined_need_more_error">请选择多张桌子完成并桌</string>
+	<string name="hang_single_need_one_error">单桌只能选择一张桌子</string>
+	<string name="hang_split_need_one_error">拼桌只能选择一张桌子</string>
+	<string name="hang_combined_need_none_table_error">请选择空桌进行并桌</string>
+	<string name="hang_no_table_error">请先选择桌子然后挂单</string>
+	<string name="confirm_combine_table">确认并桌</string>
+	<string name="combine_table_checkout">并桌买单</string>
+	<string name="empty_table">空桌</string>
+	<string name="hang_all_recovery">全部恢复</string>
+	<string name="get_host_hang_order_error">获取的总机挂单错误！</string>
+
+	<string name="hang_no_receipt_error">找不到单据</string>
+	<string name="hang_no_item_error">找不到商品单据</string>
+
+	<string name="client_serving">分机上菜了</string>
+	<string name="client_change">分机修改了挂单</string>
+	<string name="client_del_order">分机删除了挂单</string>
+	<string name="client_add">分机追加了挂单</string>
+
+	<string name="hang_connect_error">无法连接收银台</string>
+	<string name="hang_timeout_error">连接超时</string>
+	<string name="hang_return_error">收银台返回错误</string>
+	<string name="hang_data_error">传输数据出错</string>
+	<string name="hang_other_error">其他错误</string>
+	<string name="hang_handler_ok">操作成功</string>
+
+    <string name="unit">单位</string>
+	<string name="http_error_product_conf">获取半成品失败</string>
+	<string name="http_error_product_produce">半成品制作失败</string>
+	<string name="http_error_produce_null">没有半成品</string>
+	<string name="http_error_online_reverse">在线支付反结账失败</string>
+	<string name="product_produce_success">半成品制作成功</string>
+	<string name="scan_feedback">扫一扫我评价订单</string>
+	<string name="flow_to_store">出货到:</string>
+
+	<string name="exchange_table_to">换桌到</string>
+	<string name="check_zero_data">沽清单据</string>
+	<string name="check_zero">沽清</string>
+	<string name="check_zero_1_str">沽清:</string>
+	<string name="check_zero_finish">完成沽清</string>
+	<string name="check_zero_list">沽清清单</string>
+	<string name="http_error_check_zero">商品沽清失败</string>
+	<string name="recovery">恢复</string>
+	<string name="exit_ad">我要\n点餐</string>
+	<string name="error_reprint">出错重打，请勿重做</string>
+	<string name="receipt_backup">收据备份联</string>
+
+    <string name="combo_ctg">促销套餐</string>
+    <string name="error_get_picture">图片显示失败</string>
+    <string name="dst_str">折扣</string>
+    <string name="hang_order">挂单</string>
+
+    <string name="flow_system">跟随系统</string>
+    <string name="net_3g_cm">3G移动</string>
+    <string name="net_3g_other">3G联通/电信</string>
+    <string name="net_4g">4G网络</string>
+    <string name="label_tsc">TSC协议</string>
+    <string name="label_ezpl">EZPL协议</string>
+
+	<string name="scan_jd">京东钱包扫一扫</string>
+	<string name="pay_type_allinpay">通联银联卡</string>
+    <string name="pay_type_allinpay_scan">通联扫码支付</string>
+    <string name="pay_type_allinpay_ali">通联支付宝</string>
+    <string name="pay_type_allinpay_wx">通联微支付</string>
+    <string name="pay_type_allinpay_bd">通联百度钱包</string>
+    <string name="pay_type_allinpay_alp">通联钱包</string>
+
+	<string name="pay_type_more">更多>></string>
+	<string name="wifi_not_open">WIFI未开启</string>
+
+	<string name="have_shopping_cards">持有的购物卡:</string>
+	<string name="recharge_money_to">充值到:</string>
+	<string name="gift_money_to">赠送到:</string>
+	<string name="recharge_gen">通用余额</string>
+	<string name="start_up_date_time">起始日期:</string>
+	<string name="expire_date_time">过期日期:</string>
+	<string name="validity_date">有效期:</string>
+	<string name="exp_unlimited">永不过期</string>
+	<string name="receipt_mdf_price_str">注:修改价格，勿重做</string>
+	<string name="discard_receipt">商品报损</string>
+	<string name="discard_reason">原因</string>
+	<string name="discard_finish">报损完成</string>
+	<string name="http_error_discard">商品报损失败</string>
+	<string name="discard_chang_str">款商品报损，共</string>
+	<string name="discard_chang_2_str">件，总进价</string>
+
+	<string name="summaries_report">日结报表</string>
+	<string name="summaries_amount">销售总额</string>
+	<string name="summaries_receipt_cnt">销售单数</string>
+	<string name="summaries_profit">销售利润</string>
+	<string name="summaries_pass_product">次卡消费</string>
+	<string name="summaries_customer_recharge">会员充值</string>
+	<string name="summaries_payments">支付统计</string>
+	<string name="summaries_promotions">营销统计</string>
+	<string name="summaries_receipt_cnt_in_store">店内单数</string>
+	<string name="summaries_receipt_cnt_out_store">店外单数</string>
+	<string name="summaries_amount_in_store">店内销售总额</string>
+	<string name="summaries_people_in_store">店内客流量</string>
+	<string name="summaries_avg_in_store">店内平均消费</string>
+	<string name="http_error_get_summaries">获取日结数据出错</string>
+	<string name="http_error_add_summaries">提交日结数据出错</string>
+	<string name="other">其他</string>
+	<string name="query_sync_time_less">5分钟内只能手动同步一次</string>
+	<string name="handover_after_crash">崩溃交接班</string>
+
+	<string name="history_handover">历史交接班</string>
+	<string name="promotion_summaries">促销统计</string>
+
+	<string name="promotion_none">不参与促销</string>
+	<string name="promotion_gift">搭赠促销</string>
+	<string name="promotion_product_redemption">换购促销</string>
+	<string name="promotion_product_discount">商品特价折扣</string>
+	<string name="promotion_product_half_price">第二件打折</string>
+	<string name="customer_discount">会员折扣</string>
+	<string name="item_manual_discount">商品手动折扣</string>
+	<string name="promotion_combo">套餐促销</string>
+	<string name="promotion_cash_back">满额返现</string>
+	<string name="customer_pass_product_discount">次卡折扣</string>
+	<string name="customer_point_exchange_money_discount">积分兑现</string>
+	<string name="customer_point_exchange_product_discount">积分兑换</string>
+	<string name="entire_discount">整单折扣</string>
+	<string name="enjoy_customer_discount"></string>
+	<string name="promotion_type">促销类型</string>
+	<string name="amount">总额</string>
+
+	<string name="pay_type_tp">第三方支付</string>
+    <string name="manager_account_can_not_sale">总部账号无法进行销售</string>
+
+    <string name="device_not_support_nfc">设备不支持NFC！</string>
+    <string name="device_start_nfc_warning">请在系统设置中先启用NFC功能！</string>
+    <string name="scale_error">电子秤出错</string>
+
+    <string name="delivery_type_send">外送</string>
+    <string name="delivery_type_take">外卖</string>
+    <string name="delivery_type_current">堂食</string>
+    <string name="delivery_type_get_hang">取单</string>
+
+    <string name="usb_printer_disconnect">USB打印机已经断开连接</string>
+
+    <string name="printer_name_receipt">收银小票机</string>
+    <string name="printer_name_kitchen">厨房小票机</string>
+    <string name="printer_name_table">压桌单小票机</string>
+    <string name="printer_name_label">标签小票机</string>
+    <string name="printer_name_bluetooth">蓝牙小票机</string>
+    <string name="printer_name_bluetooth_label">蓝牙标签机</string>
+    <string name="printer_name_usb_receipt">USB小票机</string>
+    <string name="printer_name_usb_label">USB标签小票机</string>
+    <string name="printer_name_serial">串口小票机</string>
+    <string name="printer_name_inner">内置小票机</string>
+
+    <string name="self_service">自助点餐</string>
+    <string name="str_XH">*</string>
+    <string name="default_zero_decimal">0.00</string>
+
+    <string name="shelf_life">保质期：%1$d天</string>
+    <string name="delivery_type">点送方式</string>
+    <string name="continue_str">继续</string>
+    <string name="hys_can_not_buy_current_price">自助模式下无法购买时价商品</string>
+    <string name="customer_pay_success">会员支付成功</string>
+    <string name="customer_pay_fail">会员支付失败</string>
+    <string name="paying">付款中</string>
+    <string name="customer_refrush">刷新会员数据</string>
+    <string name="tel_fail_warning">该设备拨打电话失败，请使用手机拨打：\n400-806-6866</string>
+    <string name="from_table_not_found">找不到起始桌子</string>
+    <string name="to_table_not_found">找不到目标桌子</string>
+    <string name="table_exchange_only_single">请先选中要换桌的单桌</string>
+    <string name="table_exchange_success">换桌成功</string>
+    <string name="client_table_exchanging">分机换桌中……</string>
+    <string name="client_table_exchanged">分机换桌了</string>
+    <string name="refresh_pass_product">刷新会员次卡</string>
+    <string name="pass_product_lack">该次卡剩余次数不足，仅剩余%1$d次，请重新选择次卡</string>
+    <string name="refresh_shopping_card">刷新会员购物卡</string>
+    <string name="shopping_card_changed">该购物卡余额发生变动，请重新选择购物卡</string>
+    <string name="use_pass_product_fail">次卡消费失败</string>
+    <string name="list_end">已经到底了</string>
+    <string name="at_least_one_payment">至少显示一个支付方式</string>
+    <string name="need_refund_payment">没有可以退货的支付方式，请配置</string>
+    <string name="payment_not_support">付款方式不支持</string>
+    <string name="delivery_type_web_order">外卖网单</string>
+	<string name="payment_config_drag_1">长按</string>
+	<string name="payment_config_drag_2">图标可以拖动改变顺序</string>
+	<string name="no_code_product">无码商品</string>
+	<string name="no_code_product_not_free">无码商品售价不能为0</string>
+
+	<!--2017-05-02-->
+	<string name="connected_str">已连接</string>
+	<string name="setting_bluetooth_printer">"蓝牙打印机"</string>
+	<string name="bluetooth_paired">"已配对设备"</string>
+	<string name="bluetooth_not_printer">该设备可能不是蓝牙打印机，连接后可能不打印！</string>
+	<string name="bluetooth_is_closed">蓝牙未打开</string>
+	<string name="printer_not_connected">未连接打印机</string>
+	<string name="printer">打印机</string>
+	<string name="disconnected_str">已断开</string>
+	<string name="has_colsed_str">已关闭</string>
+
+    <!--2017-05-18-->
+    <string name="set_network_manual">请手动打开系统设置来设置网络</string>
+    <!--2017-05-24-->
+    <string name="handle_hang_order">挂单处理中</string>
+    <string name="history_order_search_warning">查找更多单据请使用搜索功能</string>
+    <string name="price_after_discount">折后价</string>
+
+    <string name="client_can_pos_alipay">支付宝-主扫</string>
+    <string name="client_can_pos_wxpay">微支付-主扫</string>
+    <string name="pos_can_client_alipay">支付宝-被扫</string>
+    <string name="pos_can_client_wxpay">微支付-被扫</string>
+
+    <!--2017-06-13-->
+    <string name="product_tag_changed">云端修改了口味，请重新选择商品。</string>
+    <string name="tax">税收</string>
+    <string name="service_fee">服务费</string>
+    <string name="product_include_tax">商品含税</string>
+
+    <!-- 2017-07-04 -->
+    <string name="handover_net_amount">不含税费销售额</string>
+    <string name="service_amount">服务费总额</string>
+    <string name="tax_amount">税收总额</string>
+
+    <!--2017-07-03-->
+    <string name="cashier_real_cash">收银员实缴的现金:</string>
+
+    <!--2017-07-17-->
+    <string name="customer_price">会员价</string>
+
+	<string-array name="dst_values">
+        <item >95</item>
+        <item >90</item>
+        <item >88</item>
+        <item >85</item>
+        <item >80</item>
+        <item >75</item>
+        <item >70</item>
+        <item >60</item>
+        <item >50</item>
+        <item >00</item>
+        <item >抹零</item>
+    </string-array>
+
+    <string-array name="currency_symbol">
+        <item >@string/flow_system</item>
+        <item >￥</item>
+        <item >NT$</item>
+        <item >HK$</item>
+        <item >PAT.</item>
+        <item >$</item>
+        <item >EUR</item>
+        <item >KGS</item>
+        <item >RM</item>
+    </string-array>
+
+    <string-array name="kitchen_state">
+        <item >@string/kitchenNotServing</item>
+        <item >@string/kitchenServed</item>
+    </string-array>
+
+	<string-array name="net_type">
+		<item >WIFI</item>
+		<item >@string/net_3g_cm</item>
+		<item >@string/net_3g_other</item>
+		<item >@string/net_4g</item>
+	</string-array>
+
+	<string-array name="label_type">
+		<item >@string/label_tsc</item>
+		<item >@string/label_ezpl</item>
+	</string-array>
+
+	<string-array name="scale_digit_type">
+		<item >2</item>
+		<item >3</item>
+	</string-array>
+
+    <string-array name="baudrate_values">
+        <item >2400</item>
+        <item >4800</item>
+        <item >9600</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+        <item >230400</item>
+        <item >460800</item>
+        <item >500000</item>
+    </string-array>
+
+    <string name="default_input_ip">"192.168.1."</string>
+
+    <string name="number_customers">用餐人数</string>
+    <string name="need_not_input">无需输入</string>
+
+    <!-- 第三方外卖 -->
+    <string name="takeout_order">网络订单</string>
+    <string name="takeout_order_setting">网络订单设置</string>
+    <string name="takeout_source">平台：</string>
+    <string name="takeout_state">状态：</string>
+    <string name="takeout_detail_title">订单详情</string>
+    <string name="takeout_order_selector_platform">平台(至少选一项)</string>
+    <string name="takeout_order_selector_state">状态(选一项或全选)</string>
+    <string name="takeout_order_selector_text">筛选</string>
+    <string name="takeout_total_qty">共 %1$d 件</string>
+    <string name="order_source_ziying">自营</string>
+    <string name="order_source_ele">饿了么</string>
+    <string name="order_source_meituan">美团</string>
+    <string name="order_source_baidu">百度</string>
+    <string name="stay_receive">待接单</string>
+    <string name="stay_kds">待厨打</string>
+    <string name="stay_ship">待配送</string>
+    <string name="stay_checkout">待收银</string>
+    <string name="order_completed">已完成</string>
+    <string name="order_canceled">已作废</string>
+    <string name="order_cancel">作废</string>
+    <string name="order_receive">接单</string>
+    <string name="order_kds">厨打</string>
+    <string name="order_delivery">配送</string>
+    <string name="order_checkout">收银</string>
+    <string name="takeout_order_search_text">搜索单据</string>
+    <string name="takeout_order_cancel_search">取消</string>
+    <string name="takeout_order_zhi">至</string>
+    <string name="takeout_order_time_error">输入时间格式不对，请重新输入！</string>
+    <string name="takeout_order_platform">外卖平台</string>
+    <string name="takeout_order_state">状态</string>
+    <string name="takeout_order_all">全部</string>
+    <string name="takeout_order_batch">批量接单</string>
+    <string name="takeout_order_batch_str">批量</string>
+    <string name="takeout_order_delivery">送达</string>
+    <string name="takeout_order_delivery_now">立即配送</string>
+    <string name="takeout_order_receive">收</string>
+    <string name="takeout_order_cash_on_delivery">货到付款</string>
+    <string name="takeout_order_pay_online">在线支付</string>
+    <string name="takeout_order_product_total_amount">商品总额</string>
+    <string name="takeout_order_shipping_fee">运费</string>
+    <string name="takeout_order_package_fee">打包费</string>
+    <string name="takeout_order_total">共%1$s件</string>
+    <string name="takeout_order_receivable_amount">应收</string>
+    <string name="takeout_order_received_amount">实收</string>
+    <string name="takeout_order_null">暂无订单</string>
+    <string name="takeout_order_canceling">系统正在进行作废网店订单中，请稍候</string>
+    <string name="takeout_order_canceed">该订单已经被作废</string>
+    <string name="takeout_order_receiving">系统正在接收网店订单中，请稍候</string>
+    <string name="takeout_order_deliverying">系统正在进行网店订单配送中，请稍候</string>
+    <string name="takeout_order_receive_confirm">接单确认</string>
+    <string name="takeout_order_receive_confirm_desc">确认接受该订单？</string>
+    <string name="takeout_order_receive_confirm_not">不用了</string>
+    <string name="takeout_order_receive_confirm_yes">确定接单</string>
+    <string name="takeout_order_kds_confirm">厨打确认</string>
+    <string name="takeout_order_kds_confirm_desc">确认打印本单据所有品项通知到厨房？</string>
+    <string name="takeout_order_kds_confirm_not">不用了</string>
+    <string name="takeout_order_kds_confirm_yes">通知厨房</string>
+    <string name="takeout_order_delivery_confirm">配送确认</string>
+    <string name="takeout_order_delivery_confirm_desc">确认配送该订单？</string>
+    <string name="takeout_order_delivery_confirm_not">不用了</string>
+    <string name="takeout_order_delivery_confirm_yes">确定配送</string>
+    <string name="takeout_order_checkout_confirm">收银确认</string>
+    <string name="takeout_order_checkout_confirm_desc">确认收银该订单？</string>
+    <string name="takeout_order_checkout_confirm_not">不用了</string>
+    <string name="takeout_order_checkout_confirm_yes">确定收银</string>
+    <string name="takeout_order_kds_again">补打</string>
+    <string name="takeout_order_checkout_online">系统正在处理网络订单收银，请稍候</string>
+    <string name="takeout_order_online">在线订单</string>
+    <string name="takeout_order_checkout_complete_desc">在线订单收银成功！是否打印小票？</string>
+    <string name="takeout_order_checkout_print">打印小票</string>
+    <string name="takeout_order_checkout_completed">直接完成</string>
+    <string name="takeout_order_checkout_back_tip">当前是已收银网络订单，您必须完成收款！</string>
+    <string name="takeout_order_checkout_no_discount">无折扣</string>
+    <string name="takeout_order_checkout_total_discount">商品折扣</string>
+    <string name="takeout_order_checkout_warning">收银提醒</string>
+    <string name="takeout_order_checkout_warning_desc">此订单已经成功付款，您可选择 1:马上收银点击［收银单据］提交单据；2:［下次再说］返回网络订单稍后收银！</string>
+    <string name="takeout_order_checkout_warning_yes">收银单据</string>
+    <string name="takeout_order_checkout_warning_not">下次再说</string>
+    <string name="takeout_order_auto_receive_setting">设置一键接单(一键完成以下步骤)</string>
+    <string name="takeout_order_receive_setting">本机是否接收外卖订单</string>
+    <string name="takeout_order_auto_delivery_setting">配送(打印小票)</string>
+    <string name="takeout_order_have_deliveried">此订单已经配送过了！</string>
+    <string name="takeout_order_have_checkouted">此订单已经收银过了！</string>
+    <string name="takeout_order_auto_processing">一键处理订单中...</string>
+    <string name="delivery_takeout_order">平台外卖</string>
+    <string name="takeout_order_earning">外卖收入</string>
+    <string name="web_order_earning">网单收入</string>
+    <string name="takeout_order_from">[来自%1$s外卖]</string>
+    <string name="takeout_order_batch_receive">批量接单中，请稍候！</string>
+    <string name="takeout_order_batch_kds">批量厨打中，请稍候！</string>
+    <string name="takeout_order_batch_delivery">批量配送中，请稍候！</string>
+    <string name="takeout_order_batch_checkout">批量收银中，请稍候！</string>
+    <string name="takeout_order_help_desc">温馨提示：通过微信店铺，网店，“邻里尽至”APP下单的单据以及美团饿了么外卖平台订单能够被推送到这里！</string>
+    <string name="takeout_reversation">预约 </string>
+    <string name="takeout_source_name">外卖平台：</string>
+    <string name="takeout_order_no">外卖单号：</string>
+    <string name="takeout_open_hint">账号尚未绑定外卖平台，请联系客服绑定</string>
+
+    <string name="client_can_pos_union">银联支付-主扫</string>
+
+    <string name="set_label_printer_first">请先设置标签打印机</string>
+    <string name="job_print_wait">等待打印</string>
+    <string name="job_print_start">开始打印</string>
+    <string name="job_print_ing">打印中</string>
+    <string name="job_print_finish">打印完成</string>
+    <string name="job_print_error">打印出错</string>
+
+    <!-- 20170808 -->
+    <string name="ump_scan_pay">魔方扫码付(支持银联扫码)</string>
+    <string name="ump_pay_wx">魔方微信</string>
+    <string name="ump_pay_ali">魔方支付宝</string>
+    <string name="ump_pay_bank">魔方银联卡</string>
+    <string name="ump_pay_bank_scan">魔方银联扫码</string>
+
+    <!--2017-08-10-->
+    <string name="key_recovery">恢复</string>
+
+    <!--2017-08-14-->
+    <string name="host_not_found">找不到总机</string>
+    <string name="choose_host">选择总机</string>
+    <string name="search_host">搜索总机</string>
+    <string name="api_type_unkonwn">接口类型未知！</string>
+    <string name="money_error">金额出错</string>
+    <string name="lowest_discount_warning">最低折扣为：%1$s，目前折扣：%2$s</string>
+    <string name="main_update_warning">云端修改了分类、商品或者套餐</string>
+    <!--20170831-->
+    <string name="delivery_subscribe">预约单</string>
+    <string name="delivery_self">自助点餐</string>
+
+    <!--20170904-->
+    <string name="combo">套餐: </string>
+
+    <string name="hys_customer_not_exist">会员不存在</string>
+    <string name="hys_customer_authentication">验证成功，会员已保存</string>
+
+    <string name="stock_sync_ok">该单据已经被确认过了</string>
+    <string name="stock_sync_refuse">该单据已经被拒绝过了</string>
+    <string name="stock_sync_accept_refuse">该单据已经被拒绝收货了</string>
+    <string name="get_stock_taking">获取盘点数据</string>
+    <string name="commited">已提交</string>
+    <string name="checking">%1$s 盘点中</string>
+    <string name="project_name">项目名称</string>
+    <string name="check_has_not">未盘</string>
+    <string name="zero_commit">置零提交</string>
+    <string name="direct_commit">直接提交</string>
+    <string name="continue_check">继续盘点</string>
+    <string name="save_exit">保存盘点数据并退出</string>
+    <string name="clear_exit">清除盘点数据并退出</string>
+    <string name="product_search">搜索商品</string>
+    <string name="product_search_hint">请输入完整条码</string>
+    <string name="stock_taking_creator">%1$s创建的盘点</string>
+    <string name="stock_taking_has_not_finish">您还有未完成的盘点</string>
+    <string name="exit_commit_warning">是否退出盘点</string>
+    <string name="barcode_product_not_found">找不到该条码商品\n请选择操作</string>
+    <string name="skip">跳过</string>
+    <string name="title_has_checked">已盘（%1$d）</string>
+    <string name="title_has_not_checked">未盘（%1$d）</string>
+    <string name="check_commit_hint">共盘点%1$d件商品\n是否提交盘点</string>
+    <string name="title_check_history">%1$s的盘点清单</string>
+    <string name="default_project_name">%1$s创建的盘点</string>
+    <string name="check_update_warning">云端修改了分类、商品或者套餐\n请重新进入分类进行盘点</string>
+
+    <string name="choose_check_mode">选择盘点模式</string>
+    <string name="single_check">单人盘点</string>
+    <string name="multi_check">多人盘点</string>
+    <string name="check_restart_warning">重新盘点将会清除之前的盘点记录！</string>
+
+    <string name="hys_tag_free">免费</string>
+    <string name="download_file_error">下载文件出错，请重试。</string>
+    <string name="download_ing">下载中%1$d%%</string>
+    <string name="download_second_ads">下载副屏资源%1$d%%</string>
+    <string name="download_file_ok">下载文件成功</string>
+    <string name="ad_download_fail">%1$s下载失败，对应的内容将不会被展示。</string>
+    <string name="select_ad_type_first">请选择播放广告类型</string>
+    <!--2017-09-28-->
+    <string name="hang_web_order_warning">本桌已有自助服务单，请挂单到其他桌号！</string>
+    <!--2017-09-28-->
+    <string name="customer_detail_deposit">寄存</string>
+    <string name="customer_detail_deposit_add">寄件</string>
+    <string name="customer_detail_deposit_take">取件</string>
+    <string name="product">商品</string>
+    <string name="deposit_product_qty">寄存数量</string>
+    <string name="deposit_product_take_qty">取件数量</string>
+    <string name="deposit_product_surplus_qty">剩余</string>
+    <string name="deposit_product">寄存商品</string>
+    <string name="deposit_product_history">存取记录</string>
+    <string name="deposit_product_history_in_out">存/取</string>
+    <string name="deposit_product_history_guider">操作员</string>
+    <string name="deposit_product_add_success">成功寄存%1$s</string>
+    <string name="deposit_product_take_success">取件成功</string>
+    <string name="deposit_add">存</string>
+    <string name="deposit_take">取</string>
+    <string name="deposit_print_title">寄存单</string>
+    <string name="deposit_take_print_title">取货单</string>
+    <string name="deposit_print_product_name">商品名称</string>
+    <string name="deposit_print_add_surplus">提取/剩余</string>
+    <string name="input_qty_warning">请输入数量</string>
+    <string name="deposit_qty_out_of_rang">输入的数值超出最大范围</string>
+
+    <string name="product_print_free">赠</string>
+    <!--2017-10-10-->
+    <string name="self_table_exchange_warning">自助餐桌无法换桌</string>
+    <string name="self_table_combine_warning">自助餐桌无法并桌收银</string>
+
+    <string name="download_second_ad_resourse">下载副屏资源</string>
+    <string name="customer_rewrad">赠送:</string>
+    <string name="customer_point">积分</string>
+    <string name="customer_coupons">优惠券</string>
+    <string name="customer_packs">大礼包</string>
+
+    <!--2017-10-26-->
+    <string name="case_product_item_for_retail_warning">系统正在自动拆包补库存，请稍后...</string>
+    <string name="case_product_item_for_retail_complete">拆包完成</string>
+
+    <string name="flow_request_all_selling_amount">件,总售价:</string>
+    <string name="all_check_commit">所有参与盘点人员都提交之后</string>
+    <string name="check_check_summary">核对盘点盈亏表</string>
+    <string name="check_finsh_hint">在盘点盈亏表页面中</string>
+    <string name="multi_check_finish">完成盘点</string>
+
+    <!--2017-11-17-->
+    <string name="hang_order_has_changed">单据已经改变，请重新选择</string>
+    <string name="case_product_can_not_check">小件商品不参与盘点</string>
+    <string name="product_under_other_category">商品在其他分类下</string>
+
+    <!--21017-11-24-->
+    <string name="mark_no_can_not_null">牌号不能为空</string>
+    <string name="mark_no_can_not_zero">牌号不能为0</string>
+    <!--21017-11-30-->
+    <string name="cash_income_expense">现金收支</string>
+    <string name="cash_expense">支出</string>
+    <string name="cash_income">收入</string>
+    <string name="project">项目</string>
+    <string name="print">打印</string>
+    <string name="cash_income_expense_none">暂未设置收支项</string>
+    <string name="cash_income_expense_warning">请选择收支项</string>
+    <string name="cash_income_expense_requesting">系统正在提交现金收支记录，请稍候</string>
+    <string name="cash_income_expense_success">现金收支完成</string>
+    <string name="cash_income_expense_print_title">现金收支单</string>
+    <string name="cash_income_expense_cashier">记录人员：</string>
+    <string name="cash_income_expense_type">收支类型：</string>
+    <string name="cash_income_expense_expense_amount">支出现金：</string>
+    <string name="cash_income_expense_income_amount">收入现金：</string>
+
+
+    <!--2017-12-15-->
+    <string name="online_cancel_warning">取消前请确认用户未付款！</string>
+    <string name="online_pay_cancel">停止付款</string>
+    <string name="online_pay_continue">继续付款</string>
+    <string name="dsp_welcome">欢迎光临</string>
+    <string name="has_no_auth">总部账号限制了该项权限!</string>
+
+    <string name="time_error_pls_update">当前系统时间有误，为了保障销售数据的准确性，请即刻更新系统时间！</string>
+    <string name="time_error_to_setting">去设置</string>
+    <string name="time_error_goon">继续登录</string>
+    <string name="flow_in_price">进货价</string>
+    <string name="flow_in_amount">总进价</string>
+    <string name="flow_sell_amount">总售价</string>
+    <string name="no_edit_jurisdiction">当前工号没有编辑进货价权限</string>
+
+    <string name="flow_in_qty_tv">进货量</string>
+    <string name="gift_qty">赠送量</string>
+    <string name="max_gift_qty">最大赠送数量为:%1$s</string>
+    <string name="all_gift_count">(赠送%1$s件)</string>
+    <string name="all_gift_print_count">(赠%1$s)</string>
+    <string name="gift_show">赠送</string>
+    <string name="flow_in_show">进货</string>
+
+    <string name="payment_setting">新版本不再支持该功能，请到云端后台->设置->支付设置，操作。</string>
+    <string name="payment_null_toast">没有可用的支付方式。请到云端后台->设置->支付设置，打开需要显示的支付方式</string>
+
+    <string name="flow_request_all_buyprice">件,总进价:</string>
+    <string name="flow_request_all_sellingprice">件,总售价:</string>
+    <string name="sell_print_amount">(小计:%1$s)</string>
+
+
+    <string name="customer_add_pet">添加宠物</string>
+    <string name="customer_pet_year">岁</string>
+    <string name="customer_pet_month">月</string>
+    <string name="customer_pet_day">天</string>
+    <string name="customer_pet_detail">宠物详情</string>
+    <string name="customer_pet_detail_name">名称:</string>
+    <string name="customer_pet_detail_type">类型:</string>
+    <string name="customer_pet_detail_sex">性别:</string>
+    <string name="customer_pet_detail_birth">生日:</string>
+    <string name="customer_pet_detail_sterilisation">绝育:</string>
+    <string name="customer_pet_detail_remark">备注:</string>
+    <string name="customer_pet_detail_male">公</string>
+    <string name="customer_pet_detail_female">母</string>
+    <string name="customer_pet_edit">编辑</string>
+    <string name="customer_pet_detail_edit">编辑宠物资料</string>
+    <string name="customer_pet_search_hint">输入猫/狗品种拼音首字母</string>
+    <string name="customer_pet_name_warning">输入的名字不能为空</string>
+    <string name="customer_pet_type_warning">请先选择宠物类型</string>
+    <string name="customer_pet_add_success">新增宠物成功</string>
+    <string name="customer_pet_update_success">修改宠物成功</string>
+    <string name="customer_pet_delete_success">删除宠物成功</string>
+    <string name="customer_pet_adding">正在新增一只宠物</string>
+    <string name="customer_pet_updating">正在修改一只宠物</string>
+    <string name="customer_pet_deleting">正在删除一只宠物</string>
+    <string name="customer_pet_quantity">宠物数量</string>
+    <string name="customer_pet_name">宠物名称</string>
+    <string name="customer_pet_name_hint">请输宠物名称</string>
+    <string name="unit_zhi">只</string>
+
+    <!-- 2018-01-24 -->
+    <string name="refund_success">退款成功</string>
+    <string name="web_order_cancel_warning">请到销售单据里反结账</string>
+
+    <string name="shopping_card_unknow">未知(非本店卡)</string>
+
+</resources>

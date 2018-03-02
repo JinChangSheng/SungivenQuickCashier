@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hys_shap_radius_3.5">3.5dp</dimen>
+    <dimen name="hys_shap_radius_5">15dp</dimen>
+
+</resources>

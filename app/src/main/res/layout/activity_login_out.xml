@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="www.pospal.cn.sungivenquickcashier.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/white_back"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_title"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18.5sp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/account_tv"
+        android:layout_marginTop="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前账号:pospal"
+        android:textSize="23sp"
+        android:textColor="#000000"/>
+
+    <RelativeLayout
+        android:layout_marginTop="24dp"
+        android:layout_width="300dp"
+        android:layout_height="44dp">
+        <TextView
+            android:id="@+id/login_out_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/login_btn_shap"
+            android:text="@string/login_out"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:visibility="gone"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_centerVertical="true"
+            android:indeterminateDrawable="@drawable/loading" />
+    </RelativeLayout>
+
+</LinearLayout>

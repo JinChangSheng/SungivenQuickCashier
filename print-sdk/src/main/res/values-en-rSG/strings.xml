@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="receipt_undo_str">不要做， 取消!\nOrder Item Cancelled</string>
+</resources>

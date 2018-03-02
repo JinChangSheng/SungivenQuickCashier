@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">元初移动收银</string>
+
+    <string name="request_permission">权限申请</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+    <string name="request_permission_msg">存储显示商品图片需要使用SD卡读写权限\n打印机状态读取需要使用手机状态权限\n扫描条形码和二维码需要使用摄像头权限</string>
+    <string name="scan_qr_code">扫一扫</string>
+    <string name="name_title">元初食品</string>
+    <string name="login_out">登出</string>
+    <string name="login_in">登录</string>
+    <string name="scan_add">扫码添加商品</string>
+    <string name="enter_account">请输入账号</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="scan_pay">扫码支付</string>
+    <string name="enter_out">再按一次退出</string>
+
+</resources>
