@@ -13,7 +13,7 @@ import java.util.UUID;
 
 import cn.pospal.www.app.*;
 import cn.pospal.www.debug.D;
-import cn.pospal.www.hardware.printer.oject.PrintH5Job;
+import cn.pospal.www.hardware.printer.oject.PrintTotal;
 import cn.pospal.www.hardware.printer.oject.ReceiptJob;
 import cn.pospal.www.manager.ManagerData;
 import cn.pospal.www.posbase.R;
@@ -195,7 +195,7 @@ public class PrintByBluetooth extends AbstractEscPrinter {
 	@Override
 	public void initSupportPrintTypes() {
 		supportPrintTypes.add(new SupportPrintType(ReceiptJob.class, 0));
-		supportPrintTypes.add(new SupportPrintType(PrintH5Job.class, 0));
+		supportPrintTypes.add(new SupportPrintType(PrintTotal.class, 0));
 
 	}
 

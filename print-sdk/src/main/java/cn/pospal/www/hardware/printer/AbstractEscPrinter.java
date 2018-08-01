@@ -15,7 +15,7 @@ import cn.pospal.www.app.Constance;
 import cn.pospal.www.app.ManagerApp;
 import cn.pospal.www.debug.D;
 import cn.pospal.www.hardware.printer.oject.EscTestJob;
-import cn.pospal.www.hardware.printer.oject.PrintH5Job;
+import cn.pospal.www.hardware.printer.oject.PrintTotal;
 import cn.pospal.www.hardware.printer.oject.PrintJob;
 import cn.pospal.www.hardware.printer.oject.PrinterTestJob;
 import cn.pospal.www.hardware.printer.oject.ReceiptJob;
@@ -451,6 +451,6 @@ public abstract class AbstractEscPrinter extends AbstractPrinter {
         supportPrintTypes.clear();
 
         supportPrintTypes.add(new SupportPrintType(ReceiptJob.class, 0));
-        supportPrintTypes.add(new SupportPrintType(PrintH5Job.class, 0));
+        supportPrintTypes.add(new SupportPrintType(PrintTotal.class, 0));
     }
 }

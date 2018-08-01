@@ -23,6 +23,8 @@ public class PrintEvent {
     private int index;
     // 打印状态
     private int status;
+    //需要打印的字符串
+    private int printStr;
 
     public long getUid() {
         return uid;
@@ -62,6 +64,14 @@ public class PrintEvent {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public int getPrintStr() {
+        return printStr;
+    }
+
+    public void setPrintStr(int printStr) {
+        this.printStr = printStr;
     }
 
     @Override

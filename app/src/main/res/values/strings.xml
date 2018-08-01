@@ -14,5 +14,30 @@
     <string name="enter_password">请输入密码</string>
     <string name="scan_pay">扫码支付</string>
     <string name="enter_out">再按一次退出</string>
+    <string name="login_ing">登录中...</string>
+    <string name="settle">结算</string>
+    <string name="total_amount">总计：¥%1$s</string>
+    <string name="pls_add_pls">请先添加商品</string>
+    <string name="confirm_pay">确认付款</string>
+    <string name="pay_sucess">支付成功</string>
+    <string name="pay_error">支付失败</string>
+    <string name="back">返回</string>
+    <string name="retry">重试</string>
+    <string name="loading">加载中</string>
+    <string name="paying">付款中...</string>
+    <string name="check_paying">付款验证中...</string>
+    <string name="on_offer">计算优惠中...</string>
+    <string name="search_product">搜索商品中...</string>
+    <string name="upload_ticket">上传单据中...</string>
+    <string name="account_cancel">账号注销中...</string>
+
+    <string name="enter_ip">请输入ip地址</string>
+    <string name="enter_port">请输入端口号</string>
+    <string name="customer_search">会员搜索</string>
+    <string name="enter_customer_num">输入会员电话/编号</string>
+    <string name="search">查找</string>
+    <string name="customer_added">会员添加成功</string>
+    <string name="customer_cancel">取消会员</string>
+    <string name="api_error">接口错误:</string>
 
 </resources>

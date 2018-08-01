@@ -7,11 +7,16 @@ import java.util.List;
 
 import cn.pospal.www.debug.D;
 import cn.pospal.www.mo.SdkUsbInfo;
+import cn.pospal.www.requestBean.MemberInfo;
+import cn.pospal.www.responseBean.CheckUser;
 
 public class RamStatic {
 	public static BluetoothSocket bluetoothSocket;
 	public static List<SdkUsbInfo> printers;                    // USB打印机信息
 
+	public static String prepareTranId;
+	public static CheckUser checkUser;
+	public static MemberInfo memberInfo;
 
 	/**
 	 * 数据初始化
@@ -26,8 +31,8 @@ public class RamStatic {
 	/**
 	 * 初始化所有打印机信息
 	 */
-	public static final void initAllPrinter() {
-
+	public static void clearCustomer() {
+		memberInfo = null;
 	}
 
 }

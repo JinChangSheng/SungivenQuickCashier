@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
+import cn.pospal.www.database.DatabaseHelper;
 import cn.pospal.www.debug.D;
 import cn.pospal.www.hardware.init.DefaultIniter;
 import cn.pospal.www.manager.ManagerConf;
@@ -55,6 +56,7 @@ public class ManagerApp extends Application {
 		instance = this;
 
         initData();
+
 		super.onCreate();
 	}
 
@@ -81,8 +83,8 @@ public class ManagerApp extends Application {
 		// 初始化配置文件
 		ManagerConf.initManager_Conf(instance);
 		// 初始化数据库
-		//DatabaseHelper.initDatabase(instance);
-		//DatabaseHelper.initAllTables();
+		DatabaseHelper.initDatabase(instance);
+		DatabaseHelper.createAllTables();
 
         prepareSellData();
 		//RamStatic.initAllPrinter();

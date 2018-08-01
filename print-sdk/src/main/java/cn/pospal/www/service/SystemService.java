@@ -31,6 +31,7 @@ import cn.pospal.www.mo.SdkUsbInfo;
 import cn.pospal.www.otto.BusProvider;
 import cn.pospal.www.otto.DeviceEvent;
 import cn.pospal.www.posbase.R;
+import cn.pospal.www.service.fun.DataUploaderFun;
 import cn.pospal.www.service.fun.IServiceFun;
 import cn.pospal.www.service.fun.NetStatusFun;
 import cn.pospal.www.service.fun.PrinterFun;
@@ -69,7 +70,8 @@ public class SystemService extends Service {
         // 必须在最后添加，因为会发送初始化事件
         PrinterFun printerFun = PrinterFun.getInstance();
         serviceFuns.add(printerFun);
-		
+		DataUploaderFun dataUploaderFun = new DataUploaderFun();
+		serviceFuns.add(dataUploaderFun);
 		
 		// 开始服务功能
 		for (IServiceFun iServiceFun : serviceFuns) {

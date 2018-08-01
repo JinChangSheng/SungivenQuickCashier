@@ -22,4 +22,7 @@ public class Constance {
 
     public static final String HPRT_BLUETOOTH_PRINTER = "BT Printer";           // 汉印蓝牙小票机
 
+    public static int payStateSuccess = 0;
+    public static int payStateError = 1;
+    public static int payStateUnknow = 2;
 }

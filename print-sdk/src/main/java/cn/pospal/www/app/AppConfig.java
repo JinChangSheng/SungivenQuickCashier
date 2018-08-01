@@ -69,8 +69,6 @@ public class AppConfig {
 	public static final int NET_TYPE_3G_MOBILE = 1;     // 3G移动
 	public static final int NET_TYPE_3G_UNION_TEL = 2;  // 3G联通/电信
 	public static final int NET_TYPE_4G = 3;            // 4G网络
-	// 网络类型
-	public static int netType = NET_TYPE_WIFI;
 
     // 打印机、客显、电子秤默认值
     public static String DEFAULT_PRINTER_PORT = POSPAL_PRINTER;
@@ -148,7 +146,6 @@ public class AppConfig {
 		useNetKitchenPrinter = ManagerData.getUseNetKitchenPrinter();
 		receiptFeedback = ManagerData.getReceiptFeedback();
 
-		netType = ManagerData.getNetType();
 
 		labelPrinterType = ManagerData.getLabelPrintType();
 		labelTopMargin = ManagerData.getLableTopMargin();

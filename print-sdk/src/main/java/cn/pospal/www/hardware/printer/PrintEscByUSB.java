@@ -15,7 +15,7 @@ import java.io.OutputStream;
 import cn.pospal.www.app.AppConfig;
 import cn.pospal.www.app.ManagerApp;
 import cn.pospal.www.debug.D;
-import cn.pospal.www.hardware.printer.oject.PrintH5Job;
+import cn.pospal.www.hardware.printer.oject.PrintTotal;
 import cn.pospal.www.hardware.printer.oject.PrintJob;
 import cn.pospal.www.hardware.printer.oject.ReceiptJob;
 import cn.pospal.www.posbase.R;
@@ -141,7 +141,7 @@ public class PrintEscByUSB extends AbstractEscPrinter {
 	@Override
     public void initSupportPrintTypes() {
 		supportPrintTypes.add(new SupportPrintType(ReceiptJob.class, 0));
-        supportPrintTypes.add(new SupportPrintType(PrintH5Job.class, 0));
+        supportPrintTypes.add(new SupportPrintType(PrintTotal.class, 0));
 	}
 
     @Override

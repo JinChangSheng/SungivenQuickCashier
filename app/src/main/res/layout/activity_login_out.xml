@@ -16,11 +16,8 @@
         android:orientation="horizontal">
         <ImageView
             android:id="@+id/back_iv"
-            android:layout_centerVertical="true"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/white_back"/>
+            style="@style/title_bar_left"
+            android:src="@drawable/white_back"/>
         <TextView
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"

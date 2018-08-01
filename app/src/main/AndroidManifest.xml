@@ -61,6 +61,22 @@
             android:name=".QrCodeActivity"
             android:screenOrientation="portrait"></activity>
 
+        <activity
+            android:name=".ScanAddProductActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".CheckOutActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".PayResultActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".CustomerSearchActivity"
+            android:screenOrientation="portrait"></activity>
+
         <service android:name="cn.pospal.www.service.SystemService"/>
     </application>
 
