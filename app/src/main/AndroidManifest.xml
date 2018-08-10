@@ -77,6 +77,10 @@
             android:name=".CustomerSearchActivity"
             android:screenOrientation="portrait"></activity>
 
+        <activity
+            android:name=".BarcodeInputActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <service android:name="cn.pospal.www.service.SystemService"/>
     </application>
 

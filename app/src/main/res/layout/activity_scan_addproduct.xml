@@ -61,7 +61,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="7"
+            android:layout_weight="5"
             android:gravity="center_vertical"
             android:orientation="horizontal">
             <TextView
@@ -74,6 +74,16 @@
                 android:textSize="15sp"
                 />
         </LinearLayout>
+        <TextView
+            android:id="@+id/barcode_tv"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/barcode"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:background="#decb51"
+            android:layout_height="match_parent"/>
         <LinearLayout
             android:id="@+id/check_out"
             android:layout_width="0dp"

@@ -39,5 +39,8 @@
     <string name="customer_added">会员添加成功</string>
     <string name="customer_cancel">取消会员</string>
     <string name="api_error">接口错误:</string>
+    <string name="barcode">条码</string>
+    <string name="pls_enter_barcode">请输入商品条码</string>
+    <string name="ok">确定</string>
 
 </resources>
