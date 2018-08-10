@@ -10,7 +10,6 @@ public class UpdateOrder implements Serializable{
     String tranId;
     Order order;
     Integer sentState;
-    String prepareTranId;
     String datetime;
 
     public String getTranId() {
@@ -35,14 +34,6 @@ public class UpdateOrder implements Serializable{
 
     public void setSentState(Integer sentState) {
         this.sentState = sentState;
-    }
-
-    public String getPrepareTranId() {
-        return prepareTranId;
-    }
-
-    public void setPrepareTranId(String prepareTranId) {
-        this.prepareTranId = prepareTranId;
     }
 
     public String getDatetime() {
