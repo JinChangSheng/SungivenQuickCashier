@@ -158,6 +158,7 @@ public class ScanAddProductActivity extends BaseActivity implements ApiResponseJ
                 break;
             case R.id.barcode_tv:
                 Intent intent1 = new Intent(this,BarcodeInputActivity.class);
+                intent1.putExtra(BarcodeInputActivity.INTENT_FROM,BarcodeInputActivity.BARCODE_INPUT);
                 startActivityForResult(intent1,BarcodeInputActivity.REQUEST);
 
                 break;
@@ -319,6 +320,22 @@ public class ScanAddProductActivity extends BaseActivity implements ApiResponseJ
                 searchProduct(data.getStringExtra(BarcodeInputActivity.INTENT_MARK_NO));
             }
         }
+
+        if (requestCode == BarcodeInputActivity.REQUEST2){
+            if (resultCode == RESULT_OK){
+                String pluNum = data.getStringExtra(BarcodeInputActivity.INTENT_MARK_NO);
+                D.out("pluNumpluNum....." + pluNum);
+                BigDecimal num = NumUtil.str2Decimal(pluNum);
+                if (num.compareTo(BigDecimal.ZERO) == 0){
+                    priceProducts.remove(clickPosition);
+                }else{
+                    priceProducts.get(clickPosition).setQty(num);
+                    priceProducts.get(clickPosition).setAmount(priceProducts.get(clickPosition).getUnitPrice().multiply(num));
+                }
+                setSellData();
+            }
+        }
+
     }
 
     Handler handler = new Handler(){
@@ -332,6 +349,7 @@ public class ScanAddProductActivity extends BaseActivity implements ApiResponseJ
         }
     };
 
+    private int clickPosition;
     class SaleProductAdapter extends BaseAdapter {
         private LayoutInflater inflater;
         public SaleProductAdapter(Activity activity) {
@@ -398,11 +416,23 @@ public class ScanAddProductActivity extends BaseActivity implements ApiResponseJ
                 ButterKnife.bind(this, view);
             }
 
-            public void setViews(int position , final GetPriceProduct product){
+            public void setViews(final int position , final GetPriceProduct product){
                 this.product = product;
                 nameTv.setText(product.getGdname());
                 unitpriceTv.setText(NumUtil.dcm2String(product.getUnitPrice()));
                 qtyEt.setText(NumUtil.dcm2String(product.getQty()));
+                qtyEt.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (SystemUtil.isFastDoubleClick()){
+                            return;
+                        }
+                        clickPosition = position;
+                        Intent intent = new Intent(ScanAddProductActivity.this,BarcodeInputActivity.class);
+                        intent.putExtra(BarcodeInputActivity.INTENT_FROM,BarcodeInputActivity.PLU_NUM);
+                        startActivityForResult(intent,BarcodeInputActivity.REQUEST2);
+                    }
+                });
                 subtractIv.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {

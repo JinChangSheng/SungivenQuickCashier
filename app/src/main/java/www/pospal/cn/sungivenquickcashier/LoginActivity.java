@@ -69,6 +69,8 @@ public class LoginActivity extends BaseActivity implements ApiResponseJsonListen
         passwordStr = ManagerData.getUserPassW();
         ipStr = ManagerData.getIp();
         portStr = ManagerData.getPort();
+        ipTv.setText(ipStr + "");
+        portTv.setText(portStr + "");
         toLogin(accountStr, passwordStr, ipStr, portStr, true);
     }
 

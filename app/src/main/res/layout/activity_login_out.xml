@@ -26,6 +26,17 @@
             android:textColor="#FFFFFFFF"
             android:textSize="18.5sp"
             />
+        <TextView
+            android:id="@+id/login_out_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/login_out"/>
     </RelativeLayout>
     <TextView
         android:id="@+id/account_tv"
@@ -41,23 +52,14 @@
         android:layout_width="300dp"
         android:layout_height="44dp">
         <TextView
-            android:id="@+id/login_out_tv"
+            android:id="@+id/handover_tv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="16sp"
             android:gravity="center"
             android:textColor="@color/white"
             android:background="@drawable/login_btn_shap"
-            android:text="@string/login_out"/>
-        <ProgressBar
-            android:id="@+id/progress"
-            android:visibility="gone"
-            style="?android:attr/progressBarStyleSmall"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_marginLeft="100dp"
-            android:layout_centerVertical="true"
-            android:indeterminateDrawable="@drawable/loading" />
+            android:text="@string/handover"/>
     </RelativeLayout>
 
 </LinearLayout>

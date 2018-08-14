@@ -11,13 +11,19 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import cn.pospal.www.util.StringUtil;
 import cn.pospal.www.util.SystemUtil;
 
 public class BarcodeInputActivity extends BaseActivity {
     public static final int REQUEST = 3211;
+    public static final int REQUEST2 = 3212;
 
     public static final String INTENT_MARK_NO = "markNo";
+    public static final String INTENT_FROM = "fromWhere";
+
+    public static final String BARCODE_INPUT = "barcodeInput";
+    public static final String PLU_NUM = "pluNum";
+
+
     @Bind(R.id.title_tv)
     TextView titleTv;
     @Bind(R.id.input_et)
@@ -30,6 +36,7 @@ public class BarcodeInputActivity extends BaseActivity {
     LinearLayout rootRl;
 
     private String markNo;
+    private String fromWhere;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,13 +45,11 @@ public class BarcodeInputActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         Intent intent = getIntent();
-        markNo = intent.getStringExtra(INTENT_MARK_NO);
-
-        if (StringUtil.isNullOrEmpty(markNo)) {
-            markNoEt.setText("");
-        } else {
-            markNoEt.setText(markNo);
-            markNoEt.selectAll();
+        fromWhere = intent.getStringExtra(INTENT_FROM);
+        if (BARCODE_INPUT.equals(fromWhere)){
+            titleTv.setText(getString(R.string.pls_enter_barcode));
+        }else if (PLU_NUM.equals(fromWhere)){
+            titleTv.setText(getString(R.string.pls_enter_plunum));
         }
     }
 
@@ -76,7 +81,11 @@ public class BarcodeInputActivity extends BaseActivity {
             case R.id.confirm_btn:
                 String markNo = markNoEt.getText().toString();
                 if (TextUtils.isEmpty(markNo)) {
-                    showLoading(R.string.pls_enter_barcode);
+                    if (BARCODE_INPUT.equals(fromWhere)){
+                        showLoading(R.string.pls_enter_barcode);
+                    }else if (PLU_NUM.equals(fromWhere)){
+                        showLoading(R.string.pls_enter_plunum);
+                    }
                     return;
                 }
                 Intent data = new Intent();

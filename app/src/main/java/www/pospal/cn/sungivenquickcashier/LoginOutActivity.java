@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import butterknife.Bind;
@@ -24,8 +23,8 @@ public class LoginOutActivity extends BaseActivity{
     TextView accountTv;
     @Bind(R.id.login_out_tv)
     TextView loginOutTv;
-    @Bind(R.id.progress)
-    ProgressBar progress;
+    @Bind(R.id.handover_tv)
+    TextView handoverTv;
     @Bind(R.id.activity_main)
     LinearLayout activityMain;
 
@@ -47,7 +46,7 @@ public class LoginOutActivity extends BaseActivity{
         super.onResume();
     }
 
-    @OnClick({R.id.back_iv, R.id.login_out_tv})
+    @OnClick({R.id.back_iv, R.id.login_out_tv,R.id.handover_tv})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.back_iv:
@@ -59,6 +58,12 @@ public class LoginOutActivity extends BaseActivity{
                 ManagerData.savePort("");
                 ManagerData.saveIp("");
 
+                setResult(RESULT_OK);
+                finish();
+                break;
+            case R.id.handover_tv:
+                ManagerData.saveUserName("");
+                ManagerData.saveUserPassW("");
                 setResult(RESULT_OK);
                 finish();
                 break;
